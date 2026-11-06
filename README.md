@@ -6,7 +6,7 @@
 
 Creado por Christiam Puentes, instructor de inglés del SENA en Málaga, Santander (Colombia).
 
-**Estado:** prototipo medido en laboratorio. Aún no lo han usado estudiantes reales (el piloto está preregistrado para el 9–18 de noviembre de 2026). Licencia: por definir por el autor (ver `LICENSE`).
+**Estado:** prototipo medido en laboratorio. Aún no lo han usado estudiantes reales (el piloto está preregistrado para el 9–18 de noviembre de 2026). Licencia: MIT (ver `LICENSE`).
 
 ---
 
@@ -140,7 +140,7 @@ Un bucle donde **Claude genera errores sintéticos filtrados por la gramática**
 
 ## Autor y contacto
 
-**Christiam Puentes**, instructor de inglés del SENA, Málaga, Santander, Colombia. Contacto: `[correo]`.
+**Christiam Puentes**, instructor de inglés del SENA, Málaga, Santander, Colombia. Contacto: ddiddimmo@gmail.com.
 
 **Cómo citar:**
 
@@ -148,7 +148,7 @@ Un bucle donde **Claude genera errores sintéticos filtrados por la gramática**
 
 ## Licencia
 
-Licencia: por definir por el autor (ver `LICENSE`).
+Licencia: MIT (ver `LICENSE`).
 
 Componentes de terceros con su licencia: ERG (MIT), ACE (MIT), llama.cpp (MIT), Qwen2.5 (Apache-2.0), Kokoro-82M (Apache-2.0) y cage (MIT).
 
@@ -180,6 +180,6 @@ The learner picks a real-life situation (village shop, job interview, farm, tech
 
 **Looking for:** pilots in more schools, hardware and funding. **What is different:** much weaker hardware, verifiable correction, blind measurement, and local García Rovira context.
 
-**License:** to be defined by the author (see `LICENSE`); all rights reserved for now. Third-party: ERG (MIT), ACE (MIT), llama.cpp (MIT), Qwen2.5 (Apache-2.0), Kokoro-82M (Apache-2.0), cage (MIT).
+**License:** MIT (see `LICENSE`). Third-party: ERG (MIT), ACE (MIT), llama.cpp (MIT), Qwen2.5 (Apache-2.0), Kokoro-82M (Apache-2.0), cage (MIT).
 
-**Contact:** Christiam Puentes, `[correo]`.
+**Contact:** Christiam Puentes, ddiddimmo@gmail.com.
