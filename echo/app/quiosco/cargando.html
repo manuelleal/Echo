@@ -1,0 +1,18 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Tutor de inglés</title>
+<style>
+html,body{margin:0;height:100%;background:linear-gradient(#2a6138,#173d24);color:#fff;font-family:system-ui,"DejaVu Sans",sans-serif;
+display:flex;align-items:center;justify-content:center;text-align:center;cursor:none}
+h1{font-size:3em;margin:0 0 .2em} p{margin:.3em 0} .lema{color:#fbe08c;font-size:1.6em} .sub{opacity:.85}
+.puntos span{display:inline-block;width:14px;height:14px;margin:18px 6px 0;border-radius:50%;background:#fbe08c;animation:b 1.2s infinite ease-in-out}
+.puntos span:nth-child(2){animation-delay:.2s}.puntos span:nth-child(3){animation-delay:.4s}
+@keyframes b{0%,80%,100%{transform:scale(.4);opacity:.4}40%{transform:scale(1);opacity:1}}
+</style></head><body><div>
+<h1>Tutor de inglés</h1><p class="lema">Hecho para reducir la brecha educativa</p>
+<p class="sub">Sin internet · Málaga, Santander</p><p class="sub">Creado por Christiam Puentes · Instructor de inglés, SENA</p><p class="sub" id="m">Preparando a tu tutor…</p>
+<div class="puntos"><span></span><span></span><span></span></div></div>
+<script>
+// Espera a que el tutor (servicio local) responda y entra. Sin internet: todo es 127.0.0.1.
+async function prueba(){ try{ await fetch("http://127.0.0.1:8080/", {mode:"no-cors", cache:"no-store"});
+  location.href="http://127.0.0.1:8080/"; }catch(e){ setTimeout(prueba,2000); } }
+prueba();
+</script></body></html>

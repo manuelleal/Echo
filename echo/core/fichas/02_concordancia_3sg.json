@@ -1,0 +1,10 @@
+{
+ "id": "concordancia_3sg",
+ "regla_es": "Con he/she/it el verbo en presente lleva -s (o -es).",
+ "ejemplo_mal": "She work on the farm.",
+ "ejemplo_bien": "She works on the farm.",
+ "pista_es": "¿Quién hace la acción? Si es he, she o it, revisa la terminación del verbo.",
+ "nivel": "A1-A2",
+ "fuente": "borrador del coordinador a partir de los tipos de error del tutor (sin ver los bancos)",
+ "aprobada_por": "Christiam Puentes (chat, 4-nov-2026)"
+}

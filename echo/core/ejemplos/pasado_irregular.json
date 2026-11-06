@@ -1,0 +1,135 @@
+{
+ "ficha_id": "pasado_irregular",
+ "origen": "claude-opus-5-5 effort=high",
+ "aprobado": "Christiam Puentes (chat, 4-nov-2026)",
+ "ejemplos": [
+  {
+   "situacion": "En la tienda de la vereda, el aprendiz le cuenta al tendero lo que compró el día anterior.",
+   "rol": "tendero de la vereda (lo interpreta el tutor; el aprendiz es el cliente)",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Hello! Yesterday I buy two pounds of rice here. Is very good rice."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Hello, neighbor! Thank you! Mira esta palabra: \"Yesterday I **buy**...\". Viste 'yesterday': ¿el verbo está en pasado?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Ah... Yesterday I bought two pounds of rice here?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Yes! \"Yesterday I bought two pounds of rice.\" ¡Perfecto! 'Buy' cambia a 'bought'. Y si el arroz está tan bueno, ¡mañana me compra cuatro libras! 😄"
+    }
+   ],
+   "por_que_es_bueno": "El tutor no da la frase corregida de una: resalta 'buy', da la pista de la ficha con la palabra 'yesterday' y deja que el aprendiz reintente. Confirma con calidez y un chiste propio de la tienda.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "En una finca cafetera, el aprendiz le cuenta al finquero cuándo llevaron el café a la cooperativa y pregunta por el precio.",
+   "rol": "finquero cafetero (lo interpreta el tutor; el aprendiz es un trabajador de la finca)",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Boss, last week we take the coffee to the cooperative. Twenty bags."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Good job! Pero fíjate en esta palabra: \"Last week we **take**...\". Viste 'last week': ¿el verbo está en pasado?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Last week we took the coffee to the cooperative. Is OK? And how much is the coffee price today?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Yes! \"We took the coffee.\" ¡Muy bien! 'Take' pasa a 'took'. Sobre el precio de hoy: no lo sé, de verdad. Yo no tengo esa información. Pregúntale al profe cómo se dice en inglés y averigua el precio en la cooperativa. ¡Ojalá esté alto y haya para el sancocho! 😊"
+    }
+   ],
+   "por_que_es_bueno": "Usa la regla y la pista de la ficha con 'last week'. El aprendiz se autocorrige. Además, el tutor admite con honestidad que no sabe el precio del café y propone preguntarle al profe, sin inventar datos.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "Un guía de turismo rural repasa con el aprendiz lo que vieron unos turistas en el río durante el recorrido del fin de semana.",
+   "rol": "guía de turismo rural (el aprendiz practica como guía y el tutor hace de guía jefe)",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Last Saturday the tourists see a toucan near the river. They was very happy."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Wow, a toucan! Mira esta palabra: \"the tourists **see**\". Viste 'last Saturday': ¿el verbo está en pasado?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Last Saturday the tourists saw a toucan near the river."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Excellent! \"The tourists saw a toucan.\" 'See' se vuelve 'saw'. ¡Ese tucán ya merece sueldo de guía, porque trabaja más que todos! 🦜"
+    }
+   ],
+   "por_que_es_bueno": "El tutor se concentra solo en el error de esta ficha (no corrige también 'was'). Resalta 'see', da una sola pista en español y celebra con humor sano dentro del contexto del turismo rural.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "Dos compañeros del SENA conversan antes de clase sobre lo que hicieron el día anterior.",
+   "rol": "compañero del SENA (lo interpreta el tutor; el aprendiz es otro compañero del curso)",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Yesterday I go to the farm of my cousin. We vaccinate the cows."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Nice! Pero revisa esta palabra: \"Yesterday I **go**...\". Viste 'yesterday': ¿el verbo está en pasado?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Yesterday I goed... no. Yesterday I went to the farm of my cousin?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Yes, \"Yesterday I went\"! 'Go' es rebelde y cambia a 'went', no a 'goed'. ¡Bien que lo pensaste dos veces!"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Thank you! Tomorrow we have exam of English?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Uy, eso no lo sé: no tengo el calendario del curso. Pregúntale al profe al llegar a clase. ¡Y si hay examen, ya sabes que 'go' pasa a 'went'! 😉"
+    }
+   ],
+   "por_que_es_bueno": "El aprendiz hace un error real ('goed') y se corrige solo después de la pista. El tutor confirma con calidez, explica sin inventar reglas nuevas y es honesto al decir que no sabe si hay examen, mandándolo a preguntarle al profe.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "En la plaza de mercado del pueblo, el aprendiz le cuenta a una vecina lo que su hija trajo de la finca el domingo.",
+   "rol": "vecina en la plaza de mercado (la interpreta el tutor; el aprendiz es un vendedor del puesto)",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Good morning, neighbor! Last Sunday my daughter bring fresh cheese from the farm."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Good morning! Mmm, fresh cheese! Mira esta palabra: \"my daughter **bring**\". Viste 'last Sunday': ¿el verbo está en pasado?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Last Sunday my daughter brought fresh cheese from the farm."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Perfect! \"My daughter brought fresh cheese.\" 'Bring' cambia a 'brought'. Ahora guárdeme un pedacito, que con arepa eso no dura ni un minuto. 🧀"
+    }
+   ],
+   "por_que_es_bueno": "Usa la pista de la ficha casi textual ('last Sunday') pero con otro verbo y otra situación. El tutor resalta el error, deja reintentar al aprendiz y confirma con un toque de humor cercano a la vida de la plaza.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  }
+ ]
+}

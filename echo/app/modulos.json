@@ -1,0 +1,1003 @@
+[
+ {
+  "id": "tienda",
+  "titulo": "En la tienda de la vereda",
+  "rol_tutor": "Camila, a friendly customer who visits the village store where the learner is the shopkeeper",
+  "meta_es": "Tú eres el tendero: recibe a una clienta, dile qué tienes y qué no tienes, cobra y da el vuelto.",
+  "vocabulario": [
+   {
+    "en": "customer",
+    "es": "cliente"
+   },
+   {
+    "en": "tomatoes",
+    "es": "tomates"
+   },
+   {
+    "en": "price",
+    "es": "precio"
+   },
+   {
+    "en": "change",
+    "es": "el vuelto"
+   },
+   {
+    "en": "I don't have",
+    "es": "no tengo"
+   },
+   {
+    "en": "bag",
+    "es": "bolsa"
+   },
+   {
+    "en": "pesos",
+    "es": "pesos"
+   },
+   {
+    "en": "instead",
+    "es": "en cambio"
+   }
+  ],
+  "objetivo_regla": "do_negacion",
+  "meta_final_es": "Hoy vendiste tomates en inglés y dijiste lo que no tenías.",
+  "pasos": [
+   {
+    "meta": "saludar",
+    "tutor": "Good morning! Is this your store?",
+    "ayuda_es": "Eres el tendero: recibe a la clienta. Ej.: Good morning! Welcome to my store.",
+    "espera": "\\b(hello|hi|hey|good|morning|afternoon|welcome|yes|help|store|shop)\\b",
+    "opciones": [
+     "Good morning! Welcome to my store.",
+     "Hello! Yes, this is my store.",
+     "Hi! How can I help you?"
+    ]
+   },
+   {
+    "meta": "producto",
+    "tutor": "Nice! Do you have tomatoes?",
+    "ayuda_es": "Responde si tienes tomates. Ej.: Yes, I have tomatoes.",
+    "espera": "\\b(yes|no|tomato|tomatoes|have|sure|of course|don't|dont|do not|sorry)\\b",
+    "opciones": [
+     "Yes, I have tomatoes.",
+     "Yes, of course.",
+     "Yes, we have fresh tomatoes."
+    ]
+   },
+   {
+    "meta": "precio",
+    "tutor": "Great! I want two kilos, please. How much is it?",
+    "ayuda_es": "Dile cuánto cuesta. Ej.: It is six thousand pesos.",
+    "espera": "\\b(\\d+|one|two|three|four|five|six|seven|eight|nine|ten|thousand|mil|pesos|price|cost|costs|is)\\b",
+    "opciones": [
+     "It is six thousand pesos.",
+     "Six thousand pesos.",
+     "It costs six thousand pesos."
+    ]
+   },
+   {
+    "meta": "no_hay",
+    "tutor": "Perfect. Do you have lemons too?",
+    "ayuda_es": "Hoy no hay limones. Di que no tienes, con don't. Ej.: Sorry, I don't have lemons.",
+    "espera": "\\b(don't|dont|do not|no|not|sorry|have|yes|lemon|lemons|today)\\b",
+    "opciones": [
+     "Sorry, I don't have lemons.",
+     "No, I don't have lemons today.",
+     "I don't have lemons, but I have oranges."
+    ]
+   },
+   {
+    "meta": "alternativa",
+    "tutor": "Oh, no problem. What can I buy instead?",
+    "ayuda_es": "Ofrece otra cosa que sí tienes. Ej.: You can buy oranges.",
+    "espera": "\\b(have|oranges?|bananas?|tomato\\w*|onions?|potato\\w*|avocados?|try|buy|want|fruit|you can|instead|lulo|mango|mora|blackberr\\w*|we)\\b",
+    "opciones": [
+     "You can buy oranges.",
+     "I have bananas and oranges.",
+     "Try the oranges. They are good."
+    ]
+   },
+   {
+    "meta": "cobrar",
+    "tutor": "OK, I take the oranges. Here is twenty thousand pesos. Do you have change?",
+    "ayuda_es": "Di que sí y da el vuelto. Ej.: Yes, here is your change.",
+    "espera": "\\b(yes|sure|change|here|your|thank|thanks|ok|okay|pesos|\\d+|thousand|of course)\\b",
+    "opciones": [
+     "Yes, here is your change.",
+     "Sure! Your change is four thousand pesos.",
+     "Of course. Thank you!"
+    ]
+   },
+   {
+    "meta": "despedirse",
+    "tutor": "Thank you! Your store is very nice. See you soon!",
+    "ayuda_es": "Despídete de la clienta. Ej.: Thank you! Have a nice day!",
+    "espera": "\\b(bye|goodbye|thank|thanks|see you|nice|good|have a|welcome|soon|tomorrow|enjoy|night|next)\\b",
+    "opciones": [
+     "Thank you! Have a nice day!",
+     "Goodbye! See you soon.",
+     "You are welcome. See you tomorrow!"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "entrevista",
+  "titulo": "Entrevista de trabajo",
+  "rol_tutor": "Laura, a kind human-resources interviewer at a software and animation company",
+  "meta_es": "Consigue el trabajo: preséntate, di tu edad, tus estudios, tus habilidades y un proyecto del año pasado.",
+  "vocabulario": [
+   {
+    "en": "interview",
+    "es": "entrevista"
+   },
+   {
+    "en": "I am 24 years old",
+    "es": "tengo 24 años"
+   },
+   {
+    "en": "skills",
+    "es": "habilidades"
+   },
+   {
+    "en": "tools",
+    "es": "herramientas"
+   },
+   {
+    "en": "experience",
+    "es": "experiencia"
+   },
+   {
+    "en": "team",
+    "es": "equipo"
+   },
+   {
+    "en": "last year",
+    "es": "el año pasado"
+   },
+   {
+    "en": "salary",
+    "es": "salario"
+   }
+  ],
+  "objetivo_regla": "edad_have",
+  "meta_final_es": "Hoy hiciste una entrevista completa en inglés y dijiste tu edad bien.",
+  "pasos": [
+   {
+    "meta": "saludar",
+    "tutor": "Hello, welcome! Please sit down. How are you?",
+    "ayuda_es": "Saluda con cortesía. Ej.: Hello! I am fine, thank you.",
+    "espera": "\\b(hello|hi|hey|good|fine|ok|okay|great|well|thank|thanks|morning|afternoon|happy|tired|welcome)\\b",
+    "opciones": [
+     "Hello! I am fine, thank you.",
+     "Good morning! I am very well.",
+     "Hi! I am a little nervous, but fine."
+    ]
+   },
+   {
+    "meta": "edad",
+    "tutor": "Thank you for coming. How old are you?",
+    "ayuda_es": "Di tu edad con am, no con have. Ej.: I am 24 years old.",
+    "espera": "\\b(\\d+|years?|old|am|i'm|im|eighteen|nineteen|twenty|thirty|forty)\\b",
+    "opciones": [
+     "I am 24 years old.",
+     "I am twenty years old.",
+     "I'm 30 years old."
+    ]
+   },
+   {
+    "meta": "vivir",
+    "tutor": "And where do you live?",
+    "ayuda_es": "Di dónde vives. Ej.: I live in Málaga.",
+    "espera": "\\b(live|from|in|málaga|malaga|concepci\\w*|molagavita|capitanejo|enciso|bucaramanga|vereda|village|town|city|farm)\\b",
+    "opciones": [
+     "I live in Málaga.",
+     "I live in Concepción.",
+     "I live in a village near Málaga."
+    ]
+   },
+   {
+    "meta": "estudios",
+    "tutor": "What do you study at SENA?",
+    "ayuda_es": "Cuenta tu programa. Ej.: I study software development at SENA.",
+    "espera": "\\b(study|studying|software|animation|digital|develop\\w*|sena|program\\w*|adso|course|design|student)\\b",
+    "opciones": [
+     "I study software development at SENA.",
+     "I study digital animation.",
+     "I am a SENA student."
+    ]
+   },
+   {
+    "meta": "habilidades",
+    "tutor": "Interesting! What can you do with your tools?",
+    "ayuda_es": "Di qué sabes hacer y qué herramientas usas. Ej.: I can make websites. I use Python.",
+    "espera": "\\b(can|use|python|blender|html|java\\w*|sql|photoshop|draw|code|websites?|games?|design|make|program\\w*|excel|tools?)\\b",
+    "opciones": [
+     "I can make websites. I use Python.",
+     "I can draw characters. I use Blender.",
+     "I can write code and I use SQL."
+    ]
+   },
+   {
+    "meta": "experiencia",
+    "tutor": "Tell me about a project you made last year.",
+    "ayuda_es": "Usa el pasado: made, built, wrote, learned. Ej.: Last year I made a website for my family.",
+    "espera": "\\b(made|built|did|worked|created|wrote|drew|used|learned|last year|developed|designed|started|finished|went|had|took)\\b",
+    "opciones": [
+     "Last year I made a website for my family.",
+     "I built a small game with my team.",
+     "I wrote a program and I learned a lot."
+    ]
+   },
+   {
+    "meta": "preguntar",
+    "tutor": "Very good. Do you have a question for me?",
+    "ayuda_es": "Haz una pregunta sobre el trabajo. Ej.: What time does the job start?",
+    "espera": "\\?|\\b(what|when|where|how|who|why|can|do|does|is|are|did)\\b",
+    "opciones": [
+     "What time does the job start?",
+     "Where is the office?",
+     "Do I work on Saturdays?"
+    ]
+   },
+   {
+    "meta": "despedirse",
+    "tutor": "Thank you for your time. We will call you soon. Goodbye!",
+    "ayuda_es": "Despídete y da las gracias. Ej.: Thank you! Goodbye.",
+    "espera": "\\b(bye|goodbye|thank|thanks|see you|nice|good|have a|welcome|soon|tomorrow|enjoy|night|next)\\b",
+    "opciones": [
+     "Thank you! Goodbye.",
+     "Thank you for your time. See you soon!",
+     "Thanks, Laura. Have a nice day!"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "proyecto",
+  "titulo": "Presenta tu proyecto",
+  "rol_tutor": "Sam, a curious visitor at a SENA technology fair",
+  "meta_es": "Muéstrale tu proyecto a un visitante: qué es, para qué sirve, cómo lo hiciste y qué sigue.",
+  "vocabulario": [
+   {
+    "en": "project",
+    "es": "proyecto"
+   },
+   {
+    "en": "tool",
+    "es": "herramienta"
+   },
+   {
+    "en": "useful",
+    "es": "útil"
+   },
+   {
+    "en": "problem",
+    "es": "problema"
+   },
+   {
+    "en": "team",
+    "es": "equipo"
+   },
+   {
+    "en": "to help",
+    "es": "ayudar"
+   },
+   {
+    "en": "next year",
+    "es": "el próximo año"
+   },
+   {
+    "en": "farmers",
+    "es": "campesinos"
+   }
+  ],
+  "objetivo_regla": "para_infinitivo",
+  "meta_final_es": "Hoy presentaste tu proyecto en inglés, de principio a fin.",
+  "pasos": [
+   {
+    "meta": "que_es",
+    "tutor": "Hi! This looks interesting. What is your project?",
+    "ayuda_es": "Di qué es tu proyecto. Ej.: My project is an app for farmers.",
+    "espera": "\\b(project|app|application|website|web|game|animation|system|program|software|video|it is|my|is a|is an)\\b",
+    "opciones": [
+     "My project is an app for farmers.",
+     "It is a website for my town.",
+     "My project is a short animation."
+    ]
+   },
+   {
+    "meta": "para_quien",
+    "tutor": "Cool! Who is it for, and how does it help?",
+    "ayuda_es": "Usa to + verbo: It helps people to… Ej.: It helps farmers to sell coffee.",
+    "espera": "\\b(for|help|helps|to|people|farmers|students|users|customers|children|useful)\\b",
+    "opciones": [
+     "It helps farmers to sell coffee.",
+     "It is for students. It helps them to study.",
+     "It helps people to find a job."
+    ]
+   },
+   {
+    "meta": "por_que",
+    "tutor": "Why did you decide to make it?",
+    "ayuda_es": "Usa want to / need to + verbo. Ej.: I wanted to help my family.",
+    "espera": "\\b(because|want|wanted|to|need|needed|problem|idea|so)\\b",
+    "opciones": [
+     "I wanted to help my family.",
+     "Because I want to learn.",
+     "We needed to solve a problem in my town."
+    ]
+   },
+   {
+    "meta": "como",
+    "tutor": "Which tools did you use to make it?",
+    "ayuda_es": "Cuenta en pasado qué herramientas usaste. Ej.: We used Python and a database.",
+    "espera": "\\b(used|use|made|python|html|blender|unity|java\\w*|sql|figma|phone|computer|tools?|we|with|worked|built)\\b",
+    "opciones": [
+     "We used Python and a database.",
+     "I made it with Blender.",
+     "We worked three months with HTML."
+    ]
+   },
+   {
+    "meta": "problema",
+    "tutor": "It looks difficult. What was the biggest problem?",
+    "ayuda_es": "Cuenta un problema. Ej.: The hardest part was the database.",
+    "espera": "\\b(difficult|hard|easy|problem|bug|error|time|internet|database|hardest|biggest|yes|no|was|were|part)\\b",
+    "opciones": [
+     "The hardest part was the database.",
+     "Yes, it was hard. We had many errors.",
+     "The biggest problem was the internet."
+    ]
+   },
+   {
+    "meta": "futuro",
+    "tutor": "What do you want to do next with your project?",
+    "ayuda_es": "Habla del futuro con want to / hope to. Ej.: Next year I want to add more users.",
+    "espera": "\\b(want|next|will|going|plan|hope|add|improve|sell|show|finish|learn|to)\\b",
+    "opciones": [
+     "Next year I want to add more users.",
+     "I want to improve the design.",
+     "We hope to sell it to farmers."
+    ]
+   },
+   {
+    "meta": "despedirse",
+    "tutor": "Amazing work! Good luck with your project. Bye!",
+    "ayuda_es": "Agradece y despídete. Ej.: Thank you! Bye!",
+    "espera": "\\b(bye|goodbye|thank|thanks|see you|nice|good|have a|welcome|soon|tomorrow|enjoy|night|next)\\b",
+    "opciones": [
+     "Thank you! Bye!",
+     "Thanks, Sam. See you soon!",
+     "Thank you! Have a nice day."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mercado",
+  "titulo": "En la plaza de mercado de Málaga",
+  "rol_tutor": "Rosa, a friendly vendor at the Málaga market who sells potatoes, onions and blackberries",
+  "meta_es": "Compra verduras y fruta en la plaza: saluda, pide con a/an, di cuántos kilos, pregunta el total y paga.",
+  "vocabulario": [
+   {
+    "en": "potatoes",
+    "es": "papas"
+   },
+   {
+    "en": "onion",
+    "es": "cebolla"
+   },
+   {
+    "en": "blackberries",
+    "es": "moras"
+   },
+   {
+    "en": "a kilo of",
+    "es": "un kilo de"
+   },
+   {
+    "en": "a bag of",
+    "es": "una bolsa de"
+   },
+   {
+    "en": "how much",
+    "es": "cuánto cuesta"
+   },
+   {
+    "en": "total",
+    "es": "total"
+   },
+   {
+    "en": "change",
+    "es": "el vuelto"
+   }
+  ],
+  "objetivo_regla": "articulo_a_an",
+  "meta_final_es": "Hoy hiciste tu mercado completo en inglés, con a y an bien puestos.",
+  "pasos": [
+   {
+    "meta": "saludar",
+    "tutor": "Good morning! Welcome to the Málaga market. How are you?",
+    "ayuda_es": "Saluda a Rosa. Ej.: Good morning! I am fine, thank you.",
+    "espera": "\\b(hello|hi|hey|good|fine|ok|okay|great|well|thank|thanks|morning|afternoon|happy|tired|welcome)\\b",
+    "opciones": [
+     "Good morning! I am fine, thank you.",
+     "Hello, Rosa! I am very well.",
+     "Hi! I am fine, and you?"
+    ]
+   },
+   {
+    "meta": "pedir",
+    "tutor": "What do you need today?",
+    "ayuda_es": "Pide con a / an: a kilo of, an onion. Ej.: I need a kilo of potatoes and an onion.",
+    "espera": "\\b(need|want|like|give|buy|please|potato\\w*|onions?|tomato\\w*|carrots?|blackberr\\w*|kilo|kilos|bag|pound|cabbage|beans|peas|corn)\\b",
+    "opciones": [
+     "I need a kilo of potatoes and an onion.",
+     "I want a bag of blackberries.",
+     "I need a kilo of potatoes, please."
+    ]
+   },
+   {
+    "meta": "cantidad",
+    "tutor": "How many kilos of potatoes?",
+    "ayuda_es": "Di cuántos kilos. Ej.: Two kilos, please.",
+    "espera": "\\b(\\d+|one|two|three|four|five|six|seven|eight|nine|ten|half|kilo|kilos|pound|pounds)\\b",
+    "opciones": [
+     "Two kilos, please.",
+     "Three kilos.",
+     "Half a kilo, please."
+    ]
+   },
+   {
+    "meta": "fruta",
+    "tutor": "We have fresh blackberries. Do you want some?",
+    "ayuda_es": "Acepta o rechaza. Ej.: Yes, please. I want a bag of blackberries.",
+    "espera": "\\b(yes|no|please|want|like|some|thanks|thank|sure|ok|okay|maybe|bag)\\b",
+    "opciones": [
+     "Yes, please. I want a bag of blackberries.",
+     "No, thank you.",
+     "Yes, I want half a kilo."
+    ]
+   },
+   {
+    "meta": "total",
+    "tutor": "Here you are. The potatoes are five thousand pesos. Anything else?",
+    "ayuda_es": "Pregunta cuánto es en total. Ej.: That is all, thank you. How much is it?",
+    "espera": "\\b(how much|total|price|cost|pesos|thank|thanks|all|nothing|else|no|yes|ok|okay|expensive|cheap)\\b",
+    "opciones": [
+     "That is all, thank you. How much is it?",
+     "How much is it in total?",
+     "No, thanks. What is the total?"
+    ]
+   },
+   {
+    "meta": "pagar",
+    "tutor": "It is thirteen thousand pesos in total. Do you have exact money?",
+    "ayuda_es": "Paga o pide el vuelto. Ej.: Yes, here you are.",
+    "espera": "\\b(yes|no|here|pesos|\\d+|thousand|bill|change|pay|card|sorry|have|don't|dont|do not|only|ten|twenty|fifty)\\b",
+    "opciones": [
+     "Yes, here you are.",
+     "Sorry, I have a fifty thousand bill. Do you have change?",
+     "I have twenty thousand pesos."
+    ]
+   },
+   {
+    "meta": "despedirse",
+    "tutor": "Thank you! Come back soon. Have a nice day!",
+    "ayuda_es": "Despídete de Rosa. Ej.: Thank you, Rosa. See you next week!",
+    "espera": "\\b(bye|goodbye|thank|thanks|see you|nice|good|have a|welcome|soon|tomorrow|enjoy|night|next)\\b",
+    "opciones": [
+     "Thank you, Rosa. See you next week!",
+     "Goodbye! Have a nice day.",
+     "Thanks! See you soon."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "finca",
+  "titulo": "Tu finca: eres el anfitrión",
+  "rol_tutor": "Emma, a tourist who visits the learner's farm for a night",
+  "meta_es": "Recibe a una turista en tu finca: muestra los animales, el cuarto, la comida y las actividades.",
+  "vocabulario": [
+   {
+    "en": "farm",
+    "es": "finca"
+   },
+   {
+    "en": "cow",
+    "es": "vaca"
+   },
+   {
+    "en": "horse",
+    "es": "caballo"
+   },
+   {
+    "en": "room",
+    "es": "habitación"
+   },
+   {
+    "en": "breakfast",
+    "es": "desayuno"
+   },
+   {
+    "en": "it has",
+    "es": "tiene"
+   },
+   {
+    "en": "you can",
+    "es": "puedes"
+   },
+   {
+    "en": "per night",
+    "es": "por noche"
+   }
+  ],
+  "objetivo_regla": "concordancia_3sg",
+  "meta_final_es": "Hoy fuiste anfitrión de una turista en inglés y usaste bien has y gives.",
+  "pasos": [
+   {
+    "meta": "bienvenida",
+    "tutor": "Hello! What a beautiful farm! Is this your home?",
+    "ayuda_es": "Dale la bienvenida. Ej.: Welcome to my farm!",
+    "espera": "\\b(welcome|hello|hi|yes|home|farm|my|thank|thanks|glad|nice|our)\\b",
+    "opciones": [
+     "Welcome to my farm!",
+     "Hello! Yes, this is my family farm.",
+     "Hi! Welcome to our home."
+    ]
+   },
+   {
+    "meta": "que_hay",
+    "tutor": "What is on your farm?",
+    "ayuda_es": "Di qué tienes en la finca. Ej.: We have cows, chickens and coffee.",
+    "espera": "\\b(we have|i have|has|have|there is|there are|cows?|horses?|coffee|chickens?|dogs?|trees?|fruit|plants?|pigs?|sheep|goats?|animals?|garden)\\b",
+    "opciones": [
+     "We have cows, chickens and coffee.",
+     "I have two horses and a garden.",
+     "There are many trees and a small river."
+    ]
+   },
+   {
+    "meta": "animal",
+    "tutor": "Nice! Tell me about one animal. What does it do?",
+    "ayuda_es": "Con it / he / she el verbo lleva -s: gives, eats. Ej.: My cow gives milk every day.",
+    "espera": "\\b(it|he|she|the \\w+|my \\w+|our \\w+)\\s+\\w+s\\b|\\b(gives|eats|produces|likes|sleeps|runs|lives|has|makes|needs|drinks|walks|works)\\b",
+    "opciones": [
+     "My cow gives milk every day.",
+     "The horse eats grass and runs fast.",
+     "Our dog sleeps near the door."
+    ]
+   },
+   {
+    "meta": "cuarto",
+    "tutor": "I want to stay tonight. What does the room have?",
+    "ayuda_es": "Describe el cuarto con has. Ej.: The room has two beds and a bathroom.",
+    "espera": "\\b(room|bed|beds|bathroom|window|has|have|hot water|wifi|kitchen|table|view|blanket|yes|sure|of course)\\b",
+    "opciones": [
+     "The room has two beds and a bathroom.",
+     "Yes! The room has a big window and hot water.",
+     "The house has a kitchen and a nice view."
+    ]
+   },
+   {
+    "meta": "comida",
+    "tutor": "Great! What do we eat for breakfast?",
+    "ayuda_es": "Cuenta qué se come en el desayuno. Ej.: We eat eggs, arepa and hot chocolate.",
+    "espera": "\\b(eat|breakfast|eggs?|arepas?|coffee|chocolate|bread|cheese|fruit|juice|milk|mute|cabrito|soup|rice|beans|have|serve|tamal|makes)\\b",
+    "opciones": [
+     "We eat eggs, arepa and hot chocolate.",
+     "Breakfast has coffee, bread and cheese.",
+     "My mother makes arepas and coffee."
+    ]
+   },
+   {
+    "meta": "actividad",
+    "tutor": "What can I do here tomorrow?",
+    "ayuda_es": "Propón una actividad con You can… Ej.: You can ride a horse.",
+    "espera": "\\b(can|walk|ride|visit|see|pick|help|milk|learn|horse|coffee|river|hike|cook|play|take|tour|go|you)\\b",
+    "opciones": [
+     "You can ride a horse.",
+     "You can pick coffee with my father.",
+     "You can walk to the river."
+    ]
+   },
+   {
+    "meta": "precio",
+    "tutor": "Wonderful! How much is one night?",
+    "ayuda_es": "Di el precio por noche en pesos. Ej.: One night is eighty thousand pesos.",
+    "espera": "\\b(\\d+|thousand|pesos|mil|night|per|one|two|is|cost|costs|price|free|breakfast)\\b",
+    "opciones": [
+     "One night is eighty thousand pesos.",
+     "It is sixty thousand pesos with breakfast.",
+     "It costs fifty thousand pesos."
+    ]
+   },
+   {
+    "meta": "despedirse",
+    "tutor": "Thank you! I love this place. Good night!",
+    "ayuda_es": "Despídete de la turista. Ej.: You are welcome! Enjoy your stay.",
+    "espera": "\\b(bye|goodbye|thank|thanks|see you|nice|good|have a|welcome|soon|tomorrow|enjoy|night|next)\\b",
+    "opciones": [
+     "You are welcome! Enjoy your stay.",
+     "Thank you! Have a good night.",
+     "Welcome! See you at breakfast."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "taller",
+  "titulo": "Soporte técnico de computadores",
+  "rol_tutor": "Mr. Gómez, a customer whose old laptop is slow, who visits the learner's repair workshop",
+  "meta_es": "Eres el técnico: pregunta qué pasa, explica el problema, di cómo lo arreglas, cuánto tarda y cuánto cuesta.",
+  "vocabulario": [
+   {
+    "en": "laptop",
+    "es": "portátil"
+   },
+   {
+    "en": "slow",
+    "es": "lento"
+   },
+   {
+    "en": "screen",
+    "es": "pantalla"
+   },
+   {
+    "en": "virus",
+    "es": "virus"
+   },
+   {
+    "en": "memory",
+    "es": "memoria"
+   },
+   {
+    "en": "update",
+    "es": "actualizar"
+   },
+   {
+    "en": "backup",
+    "es": "copia de seguridad"
+   },
+   {
+    "en": "fix",
+    "es": "arreglar"
+   }
+  ],
+  "objetivo_regla": "sujeto_omitido",
+  "meta_final_es": "Hoy diagnosticaste y arreglaste un computador en inglés.",
+  "pasos": [
+   {
+    "meta": "saludar",
+    "tutor": "Hello. I have a problem with my laptop. Can you help me?",
+    "ayuda_es": "Recibe al cliente. Ej.: Hello! Yes, I can help you.",
+    "espera": "\\b(hello|hi|hey|good|yes|sure|of course|help|welcome|morning|afternoon|problem|ok|okay)\\b",
+    "opciones": [
+     "Hello! Yes, I can help you.",
+     "Good morning! What is the problem?",
+     "Sure, tell me about the problem."
+    ]
+   },
+   {
+    "meta": "preguntar",
+    "tutor": "My laptop is very slow. Sometimes the screen is black. What do you want to know?",
+    "ayuda_es": "Haz una pregunta para entender el problema. Ej.: When is the screen black?",
+    "espera": "\\?|\\b(what|when|where|how|who|why|can|do|does|is|are|did)\\b",
+    "opciones": [
+     "When is the screen black?",
+     "Is it new or old?",
+     "Does it turn on?"
+    ]
+   },
+   {
+    "meta": "diagnostico",
+    "tutor": "It is five years old. Why is it so slow?",
+    "ayuda_es": "Explica la causa. No olvides it is. Ej.: It is slow because the disk is full.",
+    "espera": "\\b(it is|it's|its|is|virus|old|full|memory|ram|disk|hot|dust|dirty|update|windows|battery|problem|because|maybe)\\b",
+    "opciones": [
+     "It is slow because the disk is full.",
+     "It is old and the memory is small.",
+     "It is a virus problem."
+    ]
+   },
+   {
+    "meta": "plan",
+    "tutor": "I see. What do you do first to fix it?",
+    "ayuda_es": "Cuenta tu plan con First… Then… Ej.: First, I check the disk.",
+    "espera": "\\b(first|then|clean|install|update|remove|delete|scan|restart|check|backup|copy|fix|format|change|open|replace|add|i will|i'll|we)\\b",
+    "opciones": [
+     "First, I check the disk.",
+     "I delete old files and I scan for viruses.",
+     "First I make a backup. Then I clean it."
+    ]
+   },
+   {
+    "meta": "tiempo_precio",
+    "tutor": "OK. How long does it take, and how much is it?",
+    "ayuda_es": "Di el tiempo y el precio. Ej.: It takes two hours and it is thirty thousand pesos.",
+    "espera": "\\b(\\d+|one|two|three|hour|hours|day|days|minutes?|tomorrow|today|thousand|pesos|mil|take|takes|cost|costs|is)\\b",
+    "opciones": [
+     "It takes two hours and it is thirty thousand pesos.",
+     "It is ready tomorrow. It is twenty thousand pesos.",
+     "It takes one day. It costs forty thousand pesos."
+    ]
+   },
+   {
+    "meta": "consejo",
+    "tutor": "Good. How can I keep it fast after you fix it?",
+    "ayuda_es": "Da un consejo. Ej. con Please… o Do not… Ej.: Please update Windows and use an antivirus.",
+    "espera": "\\b(update|clean|delete|backup|antivirus|restart|don't|do not|dont|never|always|use|install|download|save|turn off|files|virus|please)\\b",
+    "opciones": [
+     "Please update Windows and use an antivirus.",
+     "Do not install strange programs.",
+     "Make a backup and delete old files."
+    ]
+   },
+   {
+    "meta": "entrega",
+    "tutor": "Thank you so much! Is it ready now?",
+    "ayuda_es": "Dile que ya está listo. Ej.: Yes! It is ready and it is fast now.",
+    "espera": "\\b(yes|no|ready|done|fixed|working|works|here|tomorrow|now|it is|it's|finished|welcome|thank|thanks)\\b",
+    "opciones": [
+     "Yes! It is ready and it is fast now.",
+     "It is fixed. You are welcome!",
+     "Yes, it is working now."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "indicaciones",
+  "titulo": "Indicaciones a un turista en Málaga",
+  "rol_tutor": "Tom, a tourist who just arrived in Málaga and does not know the town",
+  "meta_es": "Ayuda a un turista: dile cómo llegar a la plaza, qué ve en el camino, dónde comer y qué visitar.",
+  "vocabulario": [
+   {
+    "en": "go straight",
+    "es": "siga derecho"
+   },
+   {
+    "en": "turn left",
+    "es": "gire a la izquierda"
+   },
+   {
+    "en": "turn right",
+    "es": "gire a la derecha"
+   },
+   {
+    "en": "corner",
+    "es": "esquina"
+   },
+   {
+    "en": "block",
+    "es": "cuadra"
+   },
+   {
+    "en": "next to",
+    "es": "al lado de"
+   },
+   {
+    "en": "church",
+    "es": "iglesia"
+   },
+   {
+    "en": "near",
+    "es": "cerca"
+   }
+  ],
+  "objetivo_regla": "orden_adjetivo",
+  "meta_final_es": "Hoy guiaste a un turista por Málaga en inglés y describiste lugares con el orden correcto.",
+  "pasos": [
+   {
+    "meta": "ayuda",
+    "tutor": "Excuse me! I am a tourist. Can you help me?",
+    "ayuda_es": "Dile que sí. Ej.: Yes, of course!",
+    "espera": "\\b(yes|sure|of course|hello|hi|welcome|help|can|ok|okay|what|where)\\b",
+    "opciones": [
+     "Yes, of course!",
+     "Sure! What do you need?",
+     "Hello! How can I help you?"
+    ]
+   },
+   {
+    "meta": "recto",
+    "tutor": "Thank you! Where is the main square?",
+    "ayuda_es": "Dile cómo llegar: go straight, block. Ej.: Go straight for two blocks.",
+    "espera": "\\b(go|walk|straight|turn|left|right|block|blocks|corner|next|near|behind|ahead|follow|cross|street|square|park)\\b",
+    "opciones": [
+     "Go straight for two blocks.",
+     "Walk straight and turn left.",
+     "Go straight, then turn right."
+    ]
+   },
+   {
+    "meta": "giro",
+    "tutor": "Okay, two blocks. And then?",
+    "ayuda_es": "Dile hacia dónde girar. Ej.: Turn left at the corner.",
+    "espera": "\\b(go|walk|straight|turn|left|right|block|blocks|corner|next|near|behind|ahead|follow|cross|street|then)\\b",
+    "opciones": [
+     "Turn left at the corner.",
+     "Then turn right.",
+     "Turn left and cross the street."
+    ]
+   },
+   {
+    "meta": "referencia",
+    "tutor": "What can I see there to know it?",
+    "ayuda_es": "Describe un lugar: opinión, tamaño, edad, color. Ej.: You can see a big white church.",
+    "espera": "\\b(see|church|park|building|house|bank|store|shop|tree|statue|fountain|there is|there are|it is|big|small|old|beautiful|white|green|red|yellow|blue|tall|new)\\b",
+    "opciones": [
+     "You can see a big white church.",
+     "There is a beautiful old church.",
+     "You see a small green park."
+    ]
+   },
+   {
+    "meta": "comer",
+    "tutor": "Great! I am hungry. Is there a good restaurant near the square?",
+    "ayuda_es": "Recomienda un lugar para comer. Ej.: Yes, there is a nice small restaurant.",
+    "espera": "\\b(restaurant|yes|there is|there are|near|next|try|eat|food|mute|cabrito|arepa|good|nice|cheap|delicious|typical|place|bakery|cafe|café)\\b",
+    "opciones": [
+     "Yes, there is a nice small restaurant.",
+     "Try the typical food. It is delicious.",
+     "There is a nice small restaurant next to the church."
+    ]
+   },
+   {
+    "meta": "visitar",
+    "tutor": "I have one more day. What is a good place to visit near Málaga?",
+    "ayuda_es": "Recomienda un lugar: páramo, Concepción, el mercado. Ej.: Visit the páramo del Almorzadero. It is a beautiful cold place.",
+    "espera": "\\b(visit|go|see|páramo|paramo|almorzadero|concepci\\w*|capitanejo|river|mountain|waterfall|church|park|place|fair|market|you can|beautiful|nice|good|near)\\b",
+    "opciones": [
+     "Visit the páramo del Almorzadero. It is a beautiful cold place.",
+     "You can go to Concepción. It is a nice small town.",
+     "Go to the market. It is a big busy place."
+    ]
+   },
+   {
+    "meta": "despedirse",
+    "tutor": "Thank you very much! You are very kind. Goodbye!",
+    "ayuda_es": "Despídete del turista. Ej.: You are welcome! Enjoy Málaga.",
+    "espera": "\\b(bye|goodbye|thank|thanks|see you|nice|good|have a|welcome|soon|tomorrow|enjoy|night|next)\\b",
+    "opciones": [
+     "You are welcome! Enjoy Málaga.",
+     "Goodbye! Have a nice trip.",
+     "Enjoy your stay in Málaga!"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "animacion",
+  "titulo": "Presenta tu animación o videojuego",
+  "rol_tutor": "Mia, a curious visitor at a student animation and games showcase at SENA",
+  "meta_es": "Muéstrale a una visitante la animación o el videojuego que hiciste: personaje, proceso, dificultades y qué aprendiste.",
+  "vocabulario": [
+   {
+    "en": "character",
+    "es": "personaje"
+   },
+   {
+    "en": "story",
+    "es": "historia"
+   },
+   {
+    "en": "scene",
+    "es": "escena"
+   },
+   {
+    "en": "level",
+    "es": "nivel"
+   },
+   {
+    "en": "sound",
+    "es": "sonido"
+   },
+   {
+    "en": "I made / I drew",
+    "es": "hice / dibujé"
+   },
+   {
+    "en": "hardest part",
+    "es": "lo más difícil"
+   },
+   {
+    "en": "I learned",
+    "es": "aprendí"
+   }
+  ],
+  "objetivo_regla": "pasado_irregular",
+  "meta_final_es": "Hoy contaste cómo hiciste tu animación o juego, en pasado y en inglés.",
+  "pasos": [
+   {
+    "meta": "que_hiciste",
+    "tutor": "Hi! What a cool screen. What did you make?",
+    "ayuda_es": "Di qué hiciste. Ej.: I made a short animation.",
+    "espera": "\\b(made|make|animation|game|video|short|film|character|story|app|project|it is|my|drew|created|built)\\b",
+    "opciones": [
+     "I made a short animation.",
+     "I made a game about a farmer.",
+     "I created a 3D character."
+    ]
+   },
+   {
+    "meta": "personaje",
+    "tutor": "Wow! Who is the main character?",
+    "ayuda_es": "Presenta al personaje principal. Ej.: The main character is a young farmer.",
+    "espera": "\\b(character|boy|girl|farmer|dog|cat|robot|monster|man|woman|his|her|name|is|called|hero|the)\\b",
+    "opciones": [
+     "The main character is a young farmer.",
+     "He is a small robot called Pepe.",
+     "Her name is Luna. She is a brave girl."
+    ]
+   },
+   {
+    "meta": "dibujo",
+    "tutor": "I love the style. How did you draw it?",
+    "ayuda_es": "Usa el pasado: drew, made, used, wrote. Ej.: I drew it on paper first.",
+    "espera": "\\b(drew|draw|used|made|wrote|painted|took|began|started|blender|photoshop|krita|unity|godot|paper|pencil|tablet|computer|program|software|first|then)\\b",
+    "opciones": [
+     "I drew it on paper first.",
+     "I made the model in Blender.",
+     "I used Krita and I drew every scene."
+    ]
+   },
+   {
+    "meta": "tiempo",
+    "tutor": "How long did it take?",
+    "ayuda_es": "Di cuánto tiempo te tomó: took. Ej.: It took three months.",
+    "espera": "\\b(\\d+|one|two|three|four|five|six|week|weeks|month|months|day|days|hour|hours|year|took|take|long|many|about)\\b",
+    "opciones": [
+     "It took three months.",
+     "I worked two weeks every night.",
+     "It took about one month."
+    ]
+   },
+   {
+    "meta": "dificil",
+    "tutor": "What was the hardest part?",
+    "ayuda_es": "Cuenta qué fue lo más difícil. Ej.: The hardest part was the sound.",
+    "espera": "\\b(hard|hardest|difficult|part|problem|bug|animation|sound|music|rig|rigging|render|rendering|time|was|were|but|easy|story)\\b",
+    "opciones": [
+     "The hardest part was the sound.",
+     "I had a problem with the rendering.",
+     "The hardest part was the walking animation."
+    ]
+   },
+   {
+    "meta": "aprendi",
+    "tutor": "What did you learn?",
+    "ayuda_es": "Usa learned, found, knew. Ej.: I learned a lot about light.",
+    "espera": "\\b(learn|learned|learnt|know|found|knew|saw|understood|now|can|practice|patience|new|about|how)\\b",
+    "opciones": [
+     "I learned a lot about light.",
+     "I found a new way to animate.",
+     "I learned that practice is important."
+    ]
+   },
+   {
+    "meta": "publico",
+    "tutor": "I love it! Where can people see it?",
+    "ayuda_es": "Dile dónde se puede ver o jugar. Ej.: People can watch it on YouTube.",
+    "espera": "\\b(online|youtube|website|page|instagram|tiktok|internet|here|phone|computer|link|download|people|see|watch|play|you can|sena|school)\\b",
+    "opciones": [
+     "People can watch it on YouTube.",
+     "You can play it on my website.",
+     "You can see it here and on my phone."
+    ]
+   },
+   {
+    "meta": "despedirse",
+    "tutor": "Great work! Thank you for showing me. Goodbye!",
+    "ayuda_es": "Agradece y despídete. Ej.: Thank you! Come back next year.",
+    "espera": "\\b(bye|goodbye|thank|thanks|see you|nice|good|have a|welcome|soon|tomorrow|enjoy|night|next)\\b",
+    "opciones": [
+     "Thank you! Come back next year.",
+     "Thanks for watching! Goodbye.",
+     "Thank you, Mia! See you soon."
+    ]
+   }
+  ]
+ }
+]

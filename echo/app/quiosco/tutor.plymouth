@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Tutor de ingles
+Description=Pantalla de arranque del tutor de ingles sin internet
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/tutor
+ScriptFile=/usr/share/plymouth/themes/tutor/tutor.script

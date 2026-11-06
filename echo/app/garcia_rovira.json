@@ -1,0 +1,624 @@
+{
+ "fuentes": [
+  {
+   "id": "wiki_prov",
+   "url": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)",
+   "nota": "Wikipedia: provincia (13 municipios, capital Málaga, economia, artesanias)"
+  },
+  {
+   "id": "wiki_malaga",
+   "url": "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)",
+   "nota": "Wikipedia: Málaga (feria San Jerónimo, Almorzadero, economia). Varias frases sin cita en el articulo"
+  },
+  {
+   "id": "wiki_concepcion",
+   "url": "https://en.wikipedia.org/wiki/Concepci%C3%B3n,_Santander",
+   "nota": "Wikipedia EN: Concepción (lana, rios Servitá y Sartanejo, 8 de diciembre)"
+  },
+  {
+   "id": "hispanopedia_guaca",
+   "url": "https://es.hispanopedia.com/wiki/Guaca_(Santander)",
+   "nota": "Hispanopedia: Guaca (veredas, cultivos, río Guaca, Santurban)"
+  },
+  {
+   "id": "vanguardia_paramos",
+   "url": "https://www.vanguardia.com/area-metropolitana/bucaramanga/2024/10/21/la-importancia-para-santander-de-los-paramos-santurban-y-almorzadero/",
+   "nota": "Vanguardia 2024: páramos Santurban y Almorzadero (municipios, fauna, flora)"
+  },
+  {
+   "id": "vanguardia_ferias",
+   "url": "https://www.vanguardia.com/santander/2026/01/08/santander-esta-de-fiesta-conozca-la-programacion-de-los-12-municipios-que-celebran-sus-ferias/",
+   "nota": "Vanguardia ene-2026: Ferias y fiestas de San Jerónimo, Málaga, 8-12 enero"
+  },
+  {
+   "id": "vanguardia_diccionario",
+   "url": "https://www.vanguardia.com/area-metropolitana/bucaramanga/2026/05/13/diccionario-santandereano-el-origen-y-significado-de-nuestras-palabras-tipicas/",
+   "nota": "Vanguardia 2026: diccionarío santandereano (berraco y otros)"
+  },
+  {
+   "id": "radionacional",
+   "url": "https://radionacional.co/cultura/tradiciones/dialecto-santandereano-una-combinacion-unica-de-palabras-con-influencia-europea",
+   "nota": "Radio Nacional: dialecto santandereano (mano, nonos)"
+  },
+  {
+   "id": "pulzo",
+   "url": "https://www.pulzo.com/vivir-bien/como-hablan-santandereanos-palabras-mas-usadas-PP3887224A",
+   "nota": "Pulzo: palabras santandereanas (mano, arrecho, pingo)"
+  },
+  {
+   "id": "damer_mano",
+   "url": "https://www.asale.org/damer/mano",
+   "nota": "ASALE Diccionarío de americanismos: mano (amigo; marca Colombia)"
+  },
+  {
+   "id": "damer_chino",
+   "url": "https://www.asale.org/damer/chino",
+   "nota": "ASALE: chino (Colombia: persona joven; hijo de corta edad)"
+  },
+  {
+   "id": "damer_jartera",
+   "url": "https://www.asale.org/damer/jartera",
+   "nota": "ASALE: jartera (Colombia: pereza/aburrimiento; borrachera)"
+  },
+  {
+   "id": "lafm_sumerce",
+   "url": "https://www.lafm.com.co/estilo-de-vida/sumerce-una-palabra-que-nacio-de-la-esclavitud-y-ahora-es-una-expresion-de-afecto",
+   "nota": "La FM: sumercé (afecto y respeto)"
+  },
+  {
+   "id": "rae_avemaria",
+   "url": "https://www.rae.es/dpd/avemar%C3%ADa",
+   "nota": "RAE DPD: Ave María como interjeccion de asombro"
+  },
+  {
+   "id": "colombia_com",
+   "url": "https://www.colombia.com/gastronomia/noticias/platos-tipicos-de-santander-la-comida-que-debe-probar-si-viaja-592102",
+   "nota": "Colombia.com: platos tipicos de Santander (general, no solo la provincia)"
+  },
+  {
+   "id": "hesperia_albor",
+   "url": "https://hispadoc.es/descarga/articulo/198213.pdf",
+   "nota": "Albor 2001 (Hesperia) sobre sumercé en Santander y Norte de Santander. NO se pudo abrir (error de conexion); solo se vio resumido en un buscador [DUDOSO]"
+  }
+ ],
+ "municipios": [
+  {
+   "nombre": "Málaga",
+   "nota": "capital de la provincia; ~2235 m s. n. m. según Wikipedia",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Capitanejo",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Carcasí",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Cepitá",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Cerrito",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Concepción",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Enciso",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Guaca",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Macaravita",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Molagavita",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "San Andrés",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "San José de Miranda",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "San Miguel",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  }
+ ],
+ "lugares": [
+  {
+   "nombre": "Páramo del Almorzadero",
+   "tipo": "páramo",
+   "detalle": "Corazon de la provincia; Carcasí, Cerrito, Concepción, Enciso, Guaca, Macaravita, Málaga, Molagavita, San Andrés, San José de Miranda y San Miguel hacen parte (además de Santa Bárbara, Tona, Piedecuesta). Mas de 117 lagunas, frailejónes, cóndores, venados.",
+   "fuente": "https://www.vanguardia.com/area-metropolitana/bucaramanga/2024/10/21/la-importancia-para-santander-de-los-paramos-santurban-y-almorzadero/"
+  },
+  {
+   "nombre": "Páramo de Santurban (zona de Guaca)",
+   "tipo": "páramo",
+   "detalle": "Se ve entre Santa Bárbara y Guaca; Guaca comparte territorío con Santurban/Almorzadero.",
+   "fuente": "https://es.hispanopedia.com/wiki/Guaca_(Santander)"
+  },
+  {
+   "nombre": "Río Chicamocha",
+   "tipo": "rio",
+   "detalle": "El cañón del Chicamocha separa la provincia de Guanentá; la expedicion fundadora de Málaga (1542) lo cruzo.",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Río Nevado",
+   "tipo": "rio",
+   "detalle": "Marca el limite sur de la provincia.",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "nombre": "Río Servitá y río Sartanejo",
+   "tipo": "rio",
+   "detalle": "Cruzan el municipio de Concepción.",
+   "fuente": "https://en.wikipedia.org/wiki/Concepci%C3%B3n,_Santander"
+  },
+  {
+   "nombre": "Río Guaca",
+   "tipo": "rio",
+   "detalle": "Sitio de interes turistico en Guaca.",
+   "fuente": "https://es.hispanopedia.com/wiki/Guaca_(Santander)"
+  },
+  {
+   "nombre": "Veredas de Guaca",
+   "tipo": "vereda",
+   "detalle": "Alizal, Azúcar, Cámara, Nueva Granada, Sisota Alto, Vira Vira (entre otras).",
+   "fuente": "https://es.hispanopedia.com/wiki/Guaca_(Santander)"
+  },
+  {
+   "nombre": "Catedral de Málaga",
+   "tipo": "sitio",
+   "fuente": "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)"
+  },
+  {
+   "nombre": "Puente atirantado Hisgaura",
+   "tipo": "sitio",
+   "detalle": "En la via Málaga-Bucaramanga.",
+   "fuente": "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)"
+  },
+  {
+   "nombre": "Asilo San Antonio (capilla), Málaga",
+   "tipo": "sitio",
+   "fuente": "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)"
+  },
+  {
+   "nombre": "Veredas de otros municipios",
+   "tipo": "vereda",
+   "detalle": "[DUDOSO] No se verificaron veredas de Málaga ni de los demas municipios; no inventarlas.",
+   "fuente": ""
+  }
+ ],
+ "comidas": [
+  {
+   "nombre": "Cabrito (con pepitoria, arroz, yuca y arepa)",
+   "detalle": "Plato emblematico de Santander en general.",
+   "fuente": "https://www.colombia.com/gastronomia/noticias/platos-tipicos-de-santander-la-comida-que-debe-probar-si-viaja-592102",
+   "confianza": "general de Santander; presencia especifica en la provincia [DUDOSO]"
+  },
+  {
+   "nombre": "Mute santandereano",
+   "detalle": "Sopa espesa con costilla, maiz, callo, frijoles y verduras. Una sintesis de buscador dijo que es popular en toda la provincia, pero la fuente abierta no lo confirma.",
+   "fuente": "https://www.colombia.com/gastronomia/noticias/platos-tipicos-de-santander-la-comida-que-debe-probar-si-viaja-592102",
+   "confianza": "[DUDOSO] como plato especifico de García Rovira"
+  },
+  {
+   "nombre": "Arepa santandereana",
+   "fuente": "https://www.colombia.com/gastronomia/noticias/platos-tipicos-de-santander-la-comida-que-debe-probar-si-viaja-592102",
+   "confianza": "general de Santander"
+  },
+  {
+   "nombre": "Carne oreada",
+   "detalle": "Res salada y secada al sol, luego asada.",
+   "fuente": "https://www.colombia.com/gastronomia/noticias/platos-tipicos-de-santander-la-comida-que-debe-probar-si-viaja-592102",
+   "confianza": "general de Santander"
+  },
+  {
+   "nombre": "Platos con papa, cebolla, mora, lulo, curuba (productos locales)",
+   "detalle": "Cultivos de la zona; no se encontro fuente de recetas locales.",
+   "fuente": "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)",
+   "confianza": "[DUDOSO] como 'plato tipico'; son ingredientes"
+  }
+ ],
+ "fiestas": [
+  {
+   "nombre": "Ferias y Fiestas de San Jerónimo (Málaga)",
+   "fecha": "primeras semanas de enero; 2026: 8 al 12 de enero",
+   "detalle": "Feria ganadera, carrusel de comparsas (Carnaval del Oriente Colombiano), torneo de tejo, gallos, carranga, verbena.",
+   "fuente": [
+    "https://www.vanguardia.com/santander/2026/01/08/santander-esta-de-fiesta-conozca-la-programacion-de-los-12-municipios-que-celebran-sus-ferias/",
+    "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)"
+   ]
+  },
+  {
+   "nombre": "Novena de aguinaldos y Festival de Matachines (Málaga)",
+   "fecha": "diciembre",
+   "fuente": "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)"
+  },
+  {
+   "nombre": "Fiesta de la Inmaculada Concepción (Concepción)",
+   "fecha": "8 de diciembre",
+   "fuente": "https://en.wikipedia.org/wiki/Concepci%C3%B3n,_Santander"
+  },
+  {
+   "nombre": "Fiestas folcloricas de Capitanejo",
+   "fecha": "julio",
+   "fuente": "https://en.wikipedia.org/wiki/List_of_festivals_in_Colombia",
+   "confianza": "[DUDOSO] solo en una lista de Wikipedia, no se verifico con el municipio"
+  },
+  {
+   "nombre": "Ferias de ovinos y lana (Concepción)",
+   "fuente": "https://en.wikipedia.org/wiki/Concepci%C3%B3n,_Santander",
+   "confianza": "mencionadas en Wikipedia sin fechas [DUDOSO]"
+  }
+ ],
+ "economia": [
+  {
+   "tema": "Agricultura de pequena escala",
+   "detalle": "Papa, cebolla cabezona, maiz, frijol, arveja, mora, lulo, uchuva, tomate de árbol, curuba, zanahoria, café (Guaca), cebada y trigo (Concepción).",
+   "fuente": [
+    "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)",
+    "https://es.hispanopedia.com/wiki/Guaca_(Santander)",
+    "https://en.wikipedia.org/wiki/Concepci%C3%B3n,_Santander"
+   ]
+  },
+  {
+   "tema": "Tabaco, cana y café",
+   "detalle": "Mencionados como base agricola de la provincia.",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "tema": "Ganadería",
+   "detalle": "Bovinos de doble proposito; ovejas en zonas de páramo; caprinos. Hay feria ganadera en Málaga.",
+   "fuente": [
+    "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)",
+    "https://www.vanguardia.com/santander/2026/01/08/santander-esta-de-fiesta-conozca-la-programacion-de-los-12-municipios-que-celebran-sus-ferias/"
+   ]
+  },
+  {
+   "tema": "Lana",
+   "detalle": "Concepción se presenta como capital de la lana en Colombia; pequenas fabricas.",
+   "fuente": "https://en.wikipedia.org/wiki/Concepci%C3%B3n,_Santander"
+  },
+  {
+   "tema": "Artesanias",
+   "detalle": "Cesteria, alpargatas, sombreros de palma, cerámica de barro, tejidos.",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "tema": "Ladrilleras y cal",
+   "detalle": "En las afueras de Málaga.",
+   "fuente": "https://es.wikipedia.org/wiki/M%C3%A1laga_(Santander)"
+  },
+  {
+   "tema": "Servicios y estudio",
+   "detalle": "Málaga como ciudad estudiantil, comercio y servicios.",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "tema": "Rentabilidad",
+   "detalle": "La fuente dice que la mayor parte es agricultura de subsistencia con rentabilidad minima. Usar escenarios sin glorificar ni burlarse.",
+   "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Garc%C3%ADa_Rovira_(Santander)"
+  },
+  {
+   "tema": "Producción de leche",
+   "detalle": "Una búsqueda reporto ~80 mil litros diarios; no se abrío la fuente original [DUDOSO].",
+   "fuente": ""
+  }
+ ],
+ "expresiones": [
+  {
+   "expresion": "mano",
+   "significado": "Contraccion de 'hermano'; trato amistoso entre personas cercanas. Registrado como 'amigo' en Colombia.",
+   "uso_tutor": "Animo breve: \"¡Eso es, mano! Ahora sí dijiste bien la edad.\"",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://www.asale.org/damer/mano",
+    "https://radionacional.co/cultura/tradiciones/dialecto-santandereano-una-combinacion-unica-de-palabras-con-influencia-europea",
+    "https://www.pulzo.com/vivir-bien/como-hablan-santandereanos-palabras-mas-usadas-PP3887224A"
+   ],
+   "nota": "Confiable: verificado en ASALE y prensa; que se use en García Rovira en particular no esta documentado, pero si en Santander."
+  },
+  {
+   "expresion": "mana",
+   "significado": "Forma femenina de 'mano' (amiga).",
+   "uso_tutor": "\"¡Muy bien, mana!\" (solo con aprendizas)",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://www.asale.org/damer/mano"
+   ],
+   "nota": "[DUDOSO] No se hallo fuente que documente 'mana' en Santander (el DAMER trata la entrada como mano, -a). Usar poco y no en animos fijos."
+  },
+  {
+   "expresion": "¡Ave María!",
+   "significado": "Interjeccion de asombro o sorpresa; también saludo al entrar a una casa.",
+   "uso_tutor": "\"¡Ave María, qué bien pronunciaste 'thirty'!\"",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://www.rae.es/dpd/avemar%C3%ADa"
+   ],
+   "nota": "Confiable como interjeccion general en espanol; el uso regional en la provincia no se verifico [DUDOSO]. Si hay aprendices no catolicos, usar con moderacion."
+  },
+  {
+   "expresion": "berraco / berraquera",
+   "significado": "Persona valiente, tesonera; también algo dificil. Viene de 'verraco'.",
+   "uso_tutor": "\"¡Qué berraco! Terminaste las seis frases.\"",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://www.vanguardia.com/area-metropolitana/bucaramanga/2026/05/13/diccionario-santandereano-el-origen-y-significado-de-nuestras-palabras-tipicas/"
+   ],
+   "nota": "Confiable en Vanguardia; ojo: la misma palabra también puede ser fuerte o rabia en otros contextos; aqui solo en sentido positivo. Una fuente la ubica sobre todo en la region paisa, no exclusiva de Santander."
+  },
+  {
+   "expresion": "chino / china",
+   "significado": "Nino o joven; hijo de corta edad (Colombia, popular).",
+   "uso_tutor": "Para escenarios: \"Los chinos de la vereda van a la escuela.\" No usar para dirigirse a adultos.",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://www.asale.org/damer/chino"
+   ],
+   "nota": "Confiable en el DAMER para Colombia; la frecuencia especifica en García Rovira [DUDOSO]. Puede confundir a quien lo conozca como 'de China'."
+  },
+  {
+   "expresion": "jartera",
+   "significado": "En Colombia: pereza o aburrimiento; también 'borrachera' (otro sentido).",
+   "uso_tutor": "\"Si te da jartera, hagamos solo una frase más.\"",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://www.asale.org/damer/jartera"
+   ],
+   "nota": "Confiable en el DAMER. Usar solo el sentido de pereza; evitar por la acepcion de borrachera. No se hallo fuente de uso en García Rovira."
+  },
+  {
+   "expresion": "sumercé",
+   "significado": "Tratamiento de respeto y cercania ('su merced'). Origen colonial; hoy afectuoso.",
+   "uso_tutor": "\"Sumercé ya casi lo tiene. Una vez más.\"",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://www.lafm.com.co/estilo-de-vida/sumerce-una-palabra-que-nacio-de-la-esclavitud-y-ahora-es-una-expresion-de-afecto",
+    "https://hispadoc.es/descarga/articulo/198213.pdf"
+   ],
+   "nota": "Confiable el significado (La FM). Que se use en Santander y Norte de Santander se baso en un resumen de un articulo (Albor 2001) que no pude abrir [DUDOSO]. Mas tipico de Boyaca."
+  },
+  {
+   "expresion": "mucho lo bueno / mucho lo bonito",
+   "significado": "Expresion de aprecio o carino por algo.",
+   "uso_tutor": "\"¡Mucho lo bueno ese ejemplo!\"",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://www.pulzo.com/vivir-bien/como-hablan-santandereanos-palabras-mas-usadas-PP3887224A"
+   ],
+   "nota": "Confiable como santandereana en Pulzo/Vanguardia (la frase aparece como 'mucho lo bonito' en Pulzo)."
+  },
+  {
+   "expresion": "nonos / taitas",
+   "significado": "Abuelos / padres (de uso afectuoso).",
+   "uso_tutor": "En escenarios: \"My nonos live in the village.\" Mejor decir 'abuelos' en las pistas.",
+   "apropiada_aula": true,
+   "fuente": [
+    "https://radionacional.co/cultura/tradiciones/dialecto-santandereano-una-combinacion-unica-de-palabras-con-influencia-europea",
+    "https://www.vanguardia.com/area-metropolitana/bucaramanga/2026/05/13/diccionario-santandereano-el-origen-y-significado-de-nuestras-palabras-tipicas/"
+   ],
+   "nota": "Menos seguro: 'nonos' en Radio Nacional; 'taitas' es de origen quechua y no es exclusivo de Santander. Uso en la provincia [DUDOSO]."
+  },
+  {
+   "expresion": "pingo",
+   "significado": "Persona que hace tonterias, dicho a veces con carino; la RAE también da sentido de 'persona de mala conducta'.",
+   "uso_tutor": "No usar.",
+   "apropiada_aula": false,
+   "fuente": [
+    "https://www.vanguardia.com/area-metropolitana/bucaramanga/2026/05/13/diccionario-santandereano-el-origen-y-significado-de-nuestras-palabras-tipicas/",
+    "https://www.pulzo.com/vivir-bien/como-hablan-santandereanos-palabras-mas-usadas-PP3887224A"
+   ],
+   "nota": "Ambigua; evitar con adultos."
+  },
+  {
+   "expresion": "arrecho",
+   "significado": "Bravo o dificil, según el contexto; en otros paises tiene sentido vulgar.",
+   "uso_tutor": "No usar.",
+   "apropiada_aula": false,
+   "fuente": [
+    "https://www.pulzo.com/vivir-bien/como-hablan-santandereanos-palabras-mas-usadas-PP3887224A"
+   ],
+   "nota": "Evitar en aula por doble sentido."
+  },
+  {
+   "expresion": "mamar gallo",
+   "significado": "Tomar del pelo, burlarse.",
+   "uso_tutor": "No usar: el tutor no se burla.",
+   "apropiada_aula": false,
+   "fuente": [
+    "https://www.vanguardia.com/area-metropolitana/bucaramanga/2026/05/13/diccionario-santandereano-el-origen-y-significado-de-nuestras-palabras-tipicas/"
+   ],
+   "nota": "Coloquial, puede sonar a burla."
+  },
+  {
+   "expresion": "jincho",
+   "significado": "Borracho.",
+   "uso_tutor": "No usar.",
+   "apropiada_aula": false,
+   "fuente": [
+    "https://www.vanguardia.com/area-metropolitana/bucaramanga/2026/05/13/diccionario-santandereano-el-origen-y-significado-de-nuestras-palabras-tipicas/"
+   ],
+   "nota": "Tema inapropiado para el tutor."
+  }
+ ],
+ "animos_es": [
+  "¡Eso es, mano! Ahora sí dijiste bien.",
+  "¡Ave María, qué bien sonó esa frase!",
+  "¡Qué berraquera! Sigamos con la siguiente.",
+  "Despacio, sumercé, que va muy bien.",
+  "Mucho lo bueno ese intento. Una vez más.",
+  "Como el que cultiva paciencia: poquito a poco se cosecha el inglés.",
+  "¡Muy bien! Esa pronunciación ya parece de la capital de la provincia.",
+  "No le dé jartera: una frase más y descansamos.",
+  "¡Bien hecho! Como arar bien el surco: derechito.",
+  "Tranquilo, el que se equivoca aprende. Vuelva a intentarlo.",
+  "¡Eso! Va subiendo como quien sube al páramo, paso a paso.",
+  "Ya casi, mano. Repita conmigo.",
+  "¡Buen trabajo! Su inglés ya tiene sabor a casa."
+ ],
+ "ideas_escenarios": [
+  {
+   "titulo": "En la plaza de mercado de Málaga",
+   "rol_tutor": "Rosa, a friendly vendor at the Málaga market who sells potatoes, onions and blackberries",
+   "meta_es": "Compra verduras y fruta en el mercado: saluda, pide, pregunta precios y paga.",
+   "pasos": [
+    {
+     "meta": "saludar",
+     "tutor": "Good morning! Welcome to the market. How are you?",
+     "ayuda_es": "Saluda. Ej.: Good morning! I am fine, thank you."
+    },
+    {
+     "meta": "pedir",
+     "tutor": "What do you need today?",
+     "ayuda_es": "Pide dos cosas. Ej.: I need potatoes and onions."
+    },
+    {
+     "meta": "cantidad",
+     "tutor": "How many kilos of potatoes?",
+     "ayuda_es": "Di cuántos kilos. Ej.: Two kilos, please."
+    },
+    {
+     "meta": "fruta",
+     "tutor": "We have fresh blackberries. Do you want some?",
+     "ayuda_es": "Acepta o rechaza. Ej.: Yes, please. / No, thank you."
+    },
+    {
+     "meta": "precio",
+     "tutor": "Here you are. The potatoes are five thousand pesos.",
+     "ayuda_es": "Pregunta el total. Ej.: How much is it in total?"
+    },
+    {
+     "meta": "despedirse",
+     "tutor": "Thank you! Come back soon. Have a nice day!",
+     "ayuda_es": "Despídete. Ej.: Thank you, Rosa. See you next week!"
+    }
+   ]
+  },
+  {
+   "titulo": "Feria de San Jerónimo",
+   "rol_tutor": "Daniel, a visitor from Bucaramanga at the January fair in Málaga",
+   "meta_es": "Habla con un visitante sobre la feria: que hay, que te gusta, que haces en enero.",
+   "pasos": [
+    {
+     "meta": "saludar",
+     "tutor": "Hi! This fair is great. Are you from Málaga?",
+     "ayuda_es": "Di si eres de Málaga. Ej.: Yes, I am from Málaga."
+    },
+    {
+     "meta": "lugar",
+     "tutor": "Nice! What is there to see at the fair?",
+     "ayuda_es": "Nombra dos cosas. Ej.: There is a parade and music."
+    },
+    {
+     "meta": "gusto",
+     "tutor": "I like music. What kind of music do you like?",
+     "ayuda_es": "Di tu música favorita. Ej.: I like carranga."
+    },
+    {
+     "meta": "rutina",
+     "tutor": "What do you usually do in January?",
+     "ayuda_es": "Usa presente simple. Ej.: I work on the farm."
+    },
+    {
+     "meta": "invitar",
+     "tutor": "Let us watch the parade together. What time is it?",
+     "ayuda_es": "Pregunta o di la hora. Ej.: It is two o'clock."
+    },
+    {
+     "meta": "despedirse",
+     "tutor": "This was fun! Enjoy the fair. Goodbye!",
+     "ayuda_es": "Despídete. Ej.: Goodbye! Nice to meet you."
+    }
+   ]
+  },
+  {
+   "titulo": "Guia en el Páramo del Almorzadero",
+   "rol_tutor": "Camila, a local guide who takes visitors to the Almorzadero páramo",
+   "meta_es": "Pregunta y responde sobre un recorrido: clima, plantas, animales y cuidado del agua.",
+   "pasos": [
+    {
+     "meta": "saludar",
+     "tutor": "Hello! Welcome to the páramo. Are you ready for a walk?",
+     "ayuda_es": "Responde. Ej.: Yes, I am ready."
+    },
+    {
+     "meta": "clima",
+     "tutor": "It is cold here. What is the weather like where you live?",
+     "ayuda_es": "Describe el clima. Ej.: It is warm and sunny."
+    },
+    {
+     "meta": "plantas",
+     "tutor": "Look at this plant. It is a frailejón. Do you like it?",
+     "ayuda_es": "Opina. Ej.: Yes, it is beautiful."
+    },
+    {
+     "meta": "animales",
+     "tutor": "Sometimes we see condors and deer. What animals do you see near your home?",
+     "ayuda_es": "Nombra animales. Ej.: I see cows and birds."
+    },
+    {
+     "meta": "agua",
+     "tutor": "The páramo gives water to many towns. Why is water important?",
+     "ayuda_es": "Frase simple. Ej.: Water is important for people and farms."
+    },
+    {
+     "meta": "despedirse",
+     "tutor": "Great walk! Thank you for taking care of the páramo.",
+     "ayuda_es": "Da las gracias. Ej.: Thank you for the tour!"
+    }
+   ]
+  },
+  {
+   "titulo": "Tienda de lana en Concepción",
+   "rol_tutor": "Marta, who sells wool products in a small shop in Concepción",
+   "meta_es": "Compra una ruana o una cobija: saluda, describe, pregunta talla, color y precio.",
+   "pasos": [
+    {
+     "meta": "saludar",
+     "tutor": "Good afternoon! Welcome to my shop. How can I help you?",
+     "ayuda_es": "Saluda y pide. Ej.: I want a wool blanket."
+    },
+    {
+     "meta": "color",
+     "tutor": "We have blue, brown and white. What color do you like?",
+     "ayuda_es": "Di el color. Ej.: I like brown."
+    },
+    {
+     "meta": "tamano",
+     "tutor": "Is it for you or for a friend?",
+     "ayuda_es": "Responde. Ej.: It is for my mother."
+    },
+    {
+     "meta": "calidad",
+     "tutor": "This one is soft and warm. Do you like it?",
+     "ayuda_es": "Opina. Ej.: Yes, it is soft."
+    },
+    {
+     "meta": "precio",
+     "tutor": "It costs sixty thousand pesos.",
+     "ayuda_es": "Pregunta o negocia con cortesia. Ej.: Can you give me a discount, please?"
+    },
+    {
+     "meta": "despedirse",
+     "tutor": "Thank you! Say hello to your family.",
+     "ayuda_es": "Despídete. Ej.: Thank you, Marta. Goodbye!"
+    }
+   ]
+  }
+ ]
+}

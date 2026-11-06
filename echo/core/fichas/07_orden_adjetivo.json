@@ -1,0 +1,10 @@
+{
+ "id": "orden_adjetivo",
+ "regla_es": "El adjetivo va antes del sustantivo.",
+ "ejemplo_mal": "I have a dog big.",
+ "ejemplo_bien": "I have a big dog.",
+ "pista_es": "En inglés, ¿la descripción va antes o después de la cosa?",
+ "nivel": "A1-A2",
+ "fuente": "borrador del coordinador a partir de los tipos de error del tutor (sin ver los bancos)",
+ "aprobada_por": "Christiam Puentes (chat, 4-nov-2026)"
+}

@@ -1,0 +1,135 @@
+{
+ "ficha_id": "para_infinitivo",
+ "origen": "claude-opus-5-5 effort=high",
+ "aprobado": "Christiam Puentes (chat, 4-nov-2026)",
+ "ejemplos": [
+  {
+   "situacion": "El aprendiz practica cómo contarle a un turista sobre su rutina en la tienda de la vereda.",
+   "rol": "tendero de la vereda",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "I wake up at five for open the store."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué madrugador! Mira esta parte: \"for open\". Pista: cuando dices 'para + verbo', en inglés va 'to', no 'for'. ¿Lo intentas otra vez?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "I wake up at five to open the store."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Perfect! \"to open\". Muy bien. Y a las cinco de la mañana... ¡ni los gallos le ganan a usted!"
+    }
+   ],
+   "por_que_es_bueno": "El tutor señala solo el fragmento con error, da la pista exacta de la ficha sin dar la respuesta, y confirma con calidez y un toque de humor rural.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz explica a un comprador extranjero cómo funciona la cosecha en su finca cafetera.",
+   "rol": "finquero cafetero",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "In October I hire workers for pick the coffee."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Good sentence! Solo revisa \"for pick\". Pista: cuando dices 'para + verbo', en inglés va 'to', no 'for'."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "In October I hire workers to pick the coffee."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Excellent! \"to pick the coffee\" está perfecto. Ese comprador va a entender clarito, y ojalá también le compre toda la cosecha."
+    }
+   ],
+   "por_que_es_bueno": "Usa un contexto cafetero real, aplica la regla de propósito con un verbo distinto al ejemplo, y el tutor deja que el aprendiz se autocorrija.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz se prepara para guiar turistas en un recorrido de avistamiento de aves y pregunta algo que el tutor no puede saber.",
+   "rol": "guía de turismo rural",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Many tourists come here for see the birds."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué bonito plan! Fíjate en \"for see\". Pista: cuando dices 'para + verbo', en inglés va 'to', no 'for'. Try again."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Many tourists come here to see the birds. ¿Y esto viene en el examen del SENA del viernes?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Very good! \"to see the birds\" está perfecto. Sobre el examen, la verdad no sé qué temas va a incluir. Mejor pregúntale a tu profe para estar seguro."
+    }
+   ],
+   "por_que_es_bueno": "Además de corregir con la pista exacta, el tutor admite con honestidad que no sabe el contenido del examen y remite al profe, sin inventar.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "Dos compañeros del SENA practican presentarse y decir por qué estudian inglés.",
+   "rol": "compañero del SENA",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Hello, I am from Boyacá. I study English for get a better job."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Nice to meet you! Todo va bien, solo mira \"for get\". Pista: cuando dices 'para + verbo', en inglés va 'to', no 'for'."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "I study English to get a better job."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Great! \"to get a better job\" es correcto. Con ese inglés, el trabajo bueno ya va llegando."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Thank you! And I study to help my family."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Perfect again! \"to help\". Ya lo tienes dominado."
+    }
+   ],
+   "por_que_es_bueno": "El aprendiz no solo corrige sino que transfiere la regla a una frase nueva, y el tutor lo refuerza con calidez y motivación.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz practica una conversación con una vecina en la plaza de mercado del pueblo un domingo.",
+   "rol": "vecina en la plaza de mercado",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "On Sunday I come to the plaza for buy yuca and plátano."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué rico, sancocho seguro! Revisa \"for buy\". Pista: cuando dices 'para + verbo', en inglés va 'to', no 'for'."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "On Sunday I come to the plaza to buy yuca and plátano."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Yes! \"to buy\" es correcto. Muy bien. Y si invita al sancocho, yo pongo el inglés."
+    }
+   ],
+   "por_que_es_bueno": "Contexto cotidiano y cercano, error típico del hispanohablante, pista exacta de la ficha y cierre amable con humor sano.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  }
+ ]
+}

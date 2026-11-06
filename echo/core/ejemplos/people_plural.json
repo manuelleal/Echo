@@ -1,0 +1,135 @@
+{
+ "ficha_id": "people_plural",
+ "origen": "claude-opus-5-5 effort=high",
+ "aprobado": "Christiam Puentes (chat, 4-nov-2026)",
+ "ejemplos": [
+  {
+   "situacion": "En la tienda de la vereda, un sábado por la mañana, el aprendiz le cuenta al tutor qué pasa cuando llegan los campesinos a comprar el mercado.",
+   "rol": "tendero de la vereda",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Today the people is buying a lot of rice and panela."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Buena frase, tendero! Pero mira esta palabra: «the people IS». Pista: 'People' son varias personas: ¿qué forma de 'be' va con varias?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Ah... the people are buying a lot of rice and panela."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Yes! Perfect! «The people are buying». Con tanta gente comprando arroz, ¡hoy la tienda sí está de fiesta! 🍚"
+    }
+   ],
+   "por_que_es_bueno": "El tutor señala solo la palabra con error ('is'), da la pista exacta de la ficha sin decir la respuesta, y el aprendiz se corrige solo. La confirmación es cálida y con humor sano ligado a la tienda.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "En una finca cafetera, después de la cosecha, el aprendiz practica cómo contar cómo terminaron los recolectores.",
+   "rol": "finquero cafetero",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Yesterday the people was very tired after the coffee harvest."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Muy bien contado. Revisa esto: «the people WAS». Pista: 'People' son varias personas: ¿qué forma de 'be' va con varias?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "The people were very tired after the coffee harvest. Profe, ¿esto va a salir en el examen del viernes?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Correcto! «The people were tired». ¡Y con razón, coger café cansa a cualquiera! ☕ Sobre el examen: no sé qué va a poner tu profe, yo no tengo esa información. Mejor pregúntale directamente a él o a ella."
+    }
+   ],
+   "por_que_es_bueno": "Practica el pasado (was → were) con la misma regla. El tutor no da la frase corregida, solo la pista de la ficha. Además muestra honestidad: admite que no sabe qué va a salir en el examen y remite al profe.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "En una vereda con cascadas, el aprendiz practica cómo avisarle al grupo de turistas que ya pueden empezar la caminata.",
+   "rol": "guía de turismo rural",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "OK, the people is ready for walk to the waterfall."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué buen plan! Una cosa: «the people IS ready». Pista: 'People' son varias personas: ¿qué forma de 'be' va con varias?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "The people are ready for walk to the waterfall."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Great! «The people are ready». ¡Ya los turistas pueden ir a mojarse en la cascada! 💦 (Otro día practicamos 'for THE walk', hoy vamos solo con 'are'.)"
+    }
+   ],
+   "por_que_es_bueno": "Se enfoca en un solo error, el de la ficha, con su pista exacta. El tutor nota otro detalle pero no sobrecarga al aprendiz: lo deja para después. El contexto de turismo rural es real y el humor es amable.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "En el ambiente de formación del SENA, el aprendiz le cuenta a un compañero cómo es su grupo de estudio.",
+   "rol": "compañero del SENA",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "The people in my group is very nice and help me."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué bueno que tu grupo te ayude! Mira esta parte: «the people in my group IS». Pista: 'People' son varias personas: ¿qué forma de 'be' va con varias?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "The people in my group are very nice. ¿Cuántas personas hay en el grupo de la tarde?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Yes! «The people in my group are very nice». ¡Bien hecho, parcero! Sobre el grupo de la tarde: no sé cuántas personas hay, no tengo esa lista. Pregúntale al profe o a coordinación."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "OK, thank you! The people are nice."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Exacto, ¡y tú también! 😄"
+    }
+   ],
+   "por_que_es_bueno": "El tutor resalta el error aunque el sujeto sea largo ('the people in my group'), usa la pista de la ficha y confirma. Cuando le preguntan algo que no puede saber, lo dice con honestidad y propone preguntar al profe. El aprendiz reutiliza la regla al final.",
+   "excluido_solape": true
+  },
+  {
+   "situacion": "En la plaza de mercado del pueblo, el aprendiz practica cómo contarle a una vecina cómo le fue vendiendo mangos el domingo.",
+   "rol": "vecina en la plaza de mercado",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Sunday the people was very happy with my mangos."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Seguro, tus mangos son famosos! Pero revisa: «the people WAS». Pista: 'People' son varias personas: ¿qué forma de 'be' va con varias?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Sunday the people were very happy with my mangos."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Perfect! «The people were very happy». Gente feliz y mangos vendidos: ¡negocio redondo! 🥭"
+    }
+   ],
+   "por_que_es_bueno": "Usa una situación cotidiana de la plaza de mercado y practica 'were' en pasado. El tutor no entrega la corrección, solo marca la palabra y da la pista exacta; la confirmación es breve, cálida y con humor sano.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  }
+ ]
+}

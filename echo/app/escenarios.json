@@ -1,0 +1,45 @@
+[
+ {
+  "id": "tienda",
+  "titulo": "En la tienda de la vereda",
+  "rol_tutor": "Don Pedro, the friendly shopkeeper of a small village store in Colombia",
+  "meta_es": "Compra lo que necesitas para la casa: saluda, pide productos, pregunta precios y paga.",
+  "pasos": [
+   {"meta": "saludar", "tutor": "Good morning! Welcome to my store. How are you today?", "ayuda_es": "Saluda y di cómo estás. Ej.: Good morning! I am fine, thank you."},
+   {"meta": "presentarse", "tutor": "Nice to see you! Are you new in the village? Tell me about you.", "ayuda_es": "Di tu nombre (puede ser inventado), tu edad y dónde vives."},
+   {"meta": "pedir", "tutor": "What do you need today?", "ayuda_es": "Pide 2 o 3 cosas. Ej.: I need rice, eggs and a bag of coffee."},
+   {"meta": "precio", "tutor": "Here you are. Anything else? You can ask me the price.", "ayuda_es": "Pregunta cuánto cuesta. Ej.: How much is it?"},
+   {"meta": "conversar", "tutor": "It is twelve thousand pesos. What do you do for work?", "ayuda_es": "Cuenta en qué trabajas o qué estudias en el SENA."},
+   {"meta": "despedirse", "tutor": "That is great! Thank you for coming. Have a nice day!", "ayuda_es": "Despídete. Ej.: Thank you, Don Pedro. See you tomorrow!"}
+  ]
+ },
+ {
+  "id": "entrevista",
+  "titulo": "Entrevista de trabajo",
+  "rol_tutor": "Laura, a kind human-resources interviewer at a software and animation company",
+  "meta_es": "Consigue el trabajo: preséntate, habla de tus estudios, tus habilidades y tu experiencia.",
+  "pasos": [
+   {"meta": "saludar", "tutor": "Hello, welcome! Please sit down. How are you?", "ayuda_es": "Saluda con cortesía. Ej.: Hello! I am fine, thank you."},
+   {"meta": "presentarse", "tutor": "Tell me about yourself. How old are you and where do you live?", "ayuda_es": "Di tu edad con 'I am … years old' y dónde vives."},
+   {"meta": "estudios", "tutor": "What do you study at SENA?", "ayuda_es": "Cuenta tu programa. Ej.: I study software development at SENA."},
+   {"meta": "habilidades", "tutor": "Interesting! What can you do? What programs or tools do you use?", "ayuda_es": "Di qué sabes hacer. Ej.: I can make websites. I use Python and Blender."},
+   {"meta": "experiencia", "tutor": "Tell me about a project you made last year.", "ayuda_es": "Usa el pasado: Last year I made…, I worked…"},
+   {"meta": "preguntar", "tutor": "Very good. Do you have a question for me?", "ayuda_es": "Haz una pregunta. Ej.: What time does the job start?"},
+   {"meta": "despedirse", "tutor": "Thank you for your time. We will call you soon. Goodbye!", "ayuda_es": "Despídete y da las gracias."}
+  ]
+ },
+ {
+  "id": "proyecto",
+  "titulo": "Presenta tu proyecto",
+  "rol_tutor": "Sam, a curious visitor at a SENA technology fair",
+  "meta_es": "Muéstrale tu proyecto a un visitante: qué es, para qué sirve, cómo lo hiciste y qué sigue.",
+  "pasos": [
+   {"meta": "saludar", "tutor": "Hi! This looks interesting. What is your project?", "ayuda_es": "Di qué es tu proyecto. Ej.: My project is an app for farmers."},
+   {"meta": "para_que", "tutor": "Cool! Who is it for? Why is it useful?", "ayuda_es": "Explica para quién es y para qué sirve. Usa 'to' + verbo: It helps people to…"},
+   {"meta": "como", "tutor": "How did you make it? What tools did you use?", "ayuda_es": "Cuenta en pasado cómo lo hiciste. Ej.: We used Python. We worked three months."},
+   {"meta": "problema", "tutor": "Was it difficult? What was the biggest problem?", "ayuda_es": "Cuenta un problema. Ej.: The hardest part was the database."},
+   {"meta": "futuro", "tutor": "What do you want to do next with your project?", "ayuda_es": "Habla del futuro. Ej.: Next year we want to…"},
+   {"meta": "despedirse", "tutor": "Amazing work! Good luck with your project. Bye!", "ayuda_es": "Agradece y despídete."}
+  ]
+ }
+]

@@ -1,0 +1,10 @@
+{
+ "id": "sujeto_omitido",
+ "regla_es": "En inglés la oración necesita sujeto, incluso para el clima: 'It is…'.",
+ "ejemplo_mal": "Is very hot today.",
+ "ejemplo_bien": "It is very hot today.",
+ "pista_es": "¿Quién o qué 'es' muy caliente? En inglés hay que decirlo.",
+ "nivel": "A1-A2",
+ "fuente": "borrador del coordinador a partir de los tipos de error del tutor (sin ver los bancos)",
+ "aprobada_por": "Christiam Puentes (chat, 4-nov-2026)"
+}

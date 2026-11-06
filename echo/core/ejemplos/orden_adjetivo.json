@@ -1,0 +1,147 @@
+{
+ "ficha_id": "orden_adjetivo",
+ "origen": "claude-opus-5-5 effort=high",
+ "aprobado": "Christiam Puentes (chat, 4-nov-2026)",
+ "ejemplos": [
+  {
+   "situacion": "El aprendiz practica cómo comprar en la tienda de la vereda. El tutor hace de tendero.",
+   "rol": "tendero de la vereda",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Good morning, neighbor! What do you need today?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Good morning. I want a bag big of rice, please."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Muy bien el saludo! Ahora mira esta parte: \"a bag big\". Pista: En inglés, ¿la descripción va antes o después de la cosa?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Ah, antes... I want a big bag of rice, please."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Exacto! \"a big bag\". En inglés el adjetivo va antes del sustantivo. Here is your big bag of rice... ¡alístese que pesa como bulto de papa! 😄"
+    }
+   ],
+   "por_que_es_bueno": "El tutor no da la corrección: señala solo \"a bag big\", usa la pista exacta de la ficha, deja que el aprendiz reintente y confirma con la regla y un chiste sano del contexto rural.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz describe la cosecha de café en una finca. El tutor hace de finquero cafetero.",
+   "rol": "finquero cafetero",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Look! The plants have cherries red. Is time to pick."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué buena noticia para la cosecha! Pero fíjate en \"cherries red\". Pista: En inglés, ¿la descripción va antes o después de la cosa?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Antes. The plants have red cherries. Y profe, ¿cómo se dice \"pasilla\" en inglés?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Perfecto! \"red cherries\": el adjetivo va antes del sustantivo. Sobre \"pasilla\", la verdad no sé con seguridad cómo se dice en inglés. Mejor pregúntale al profe en la próxima clase y me cuentas."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Ok, I ask the teacher. Now we pick red cherries!"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Yes! Red cherries only... ¡las verdes las dejamos para que no nos regañe el patrón! 😄"
+    }
+   ],
+   "por_que_es_bueno": "Aplica la pista de la ficha sin dar la respuesta y confirma con la regla. Además, el tutor admite honestamente que no sabe cómo se dice \"pasilla\" y propone preguntarle al profe en vez de inventar.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz practica para guiar turistas por un sendero hacia una quebrada. El tutor hace de guía de turismo rural.",
+   "rol": "guía de turismo rural",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Ok, imagine I am a tourist. What can I see here?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Here you can see a river cold and many birds."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué lindo plan! Mira solo esto: \"a river cold\". Pista: En inglés, ¿la descripción va antes o después de la cosa?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Here you can see a cold river and many birds."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Eso es! \"a cold river\": el adjetivo va antes del sustantivo. Los turistas van a quedar felices... aunque se les congelen los pies en la quebrada. 😄"
+    }
+   ],
+   "por_que_es_bueno": "El error es de la ficha pero con palabras distintas al ejemplo. El tutor celebra lo que está bien, señala solo la parte con error, da la pista exacta y confirma con calidez y humor.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "Dos aprendices organizan herramientas para la práctica de construcción en el SENA. El tutor hace de compañero.",
+   "rol": "compañero del SENA",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "For the practice we need a hammer heavy and nails."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Good idea! Pero revisa \"a hammer heavy\". Pista: En inglés, ¿la descripción va antes o después de la cosa?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Mmm... we need a heavy hammer and nails."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Bien hecho, parcero! \"a heavy hammer\": el adjetivo va antes del sustantivo. Eso sí, lo cargas tú, que yo ya traje los clavos. 😄"
+    }
+   ],
+   "por_que_es_bueno": "Conversación corta entre pares con lenguaje natural. El tutor no reescribe la frase: resalta el error, usa la pista de la ficha, el aprendiz se autocorrige y el tutor confirma con la regla y humor de compañeros.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz practica cómo ofrecer frutas en su puesto de la plaza de mercado. El tutor hace de vecina que pasa a comprar.",
+   "rol": "vecina en la plaza de mercado",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Hello, neighbor! What do you have today?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Hello! Today I have avocados ripe and mangos sweet."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué rico todo! Mira estas dos partes: \"avocados ripe\" y \"mangos sweet\". Pista: En inglés, ¿la descripción va antes o después de la cosa?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Antes. Today I have ripe avocados and sweet mangos."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Perfecto! \"ripe avocados\" y \"sweet mangos\": el adjetivo va antes del sustantivo. Give me three sweet mangos... ¡pero de los más dulces, ah, que soy clienta fija! 😄"
+    }
+   ],
+   "por_que_es_bueno": "Muestra el mismo error dos veces en una frase real de mercado. El tutor señala ambas partes con una sola pista de la ficha, el aprendiz corrige las dos y el tutor confirma con la regla y un toque de humor de plaza.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  }
+ ]
+}

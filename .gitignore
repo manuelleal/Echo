@@ -1,0 +1,12 @@
+audio/
+audio_tutor*
+*.gguf
+*.dat
+datos/
+modelo/
+*.log
+registro_uso.jsonl
+*.csv
+.venv*
+__pycache__/
+*.pyc

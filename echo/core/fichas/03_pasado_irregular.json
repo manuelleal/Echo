@@ -1,0 +1,10 @@
+{
+ "id": "pasado_irregular",
+ "regla_es": "Para algo que ya pasó (yesterday, last week) el verbo va en pasado.",
+ "ejemplo_mal": "Last Sunday my uncle sell three bags of coffee.",
+ "ejemplo_bien": "Last Sunday my uncle sold three bags of coffee.",
+ "pista_es": "Viste 'last Sunday': ¿el verbo está en pasado?",
+ "nivel": "A1-A2",
+ "fuente": "borrador del coordinador a partir de los tipos de error del tutor (sin ver los bancos)",
+ "aprobada_por": "Christiam Puentes (chat, 4-nov-2026)"
+}

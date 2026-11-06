@@ -1,0 +1,135 @@
+{
+ "ficha_id": "do_negacion",
+ "origen": "claude-opus-5-5 effort=high",
+ "aprobado": "Christiam Puentes (chat, 4-nov-2026)",
+ "ejemplos": [
+  {
+   "situacion": "El aprendiz practica cómo atender a un turista extranjero que llega a la tienda de la vereda y pide huevos.",
+   "rol": "tendero de la vereda",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Sorry, I not have eggs today."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Buen intento! Mira esta parte: 'I not have'. En inglés no basta con 'not': ¿qué palabra de ayuda falta antes del verbo?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Sorry, I don't have eggs today."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Eso es! 'I don't have eggs today.' Perfecto. Las gallinas se tomaron el día libre, pero tu inglés no. 😄"
+    }
+   ],
+   "por_que_es_bueno": "El tutor no da la frase corregida de una: señala 'I not have', usa la pista exacta de la ficha y confirma con calidez y un toque de humor cuando el aprendiz reintenta bien.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz le explica a un comprador de café extranjero que después de las lluvias los cafetos no necesitan riego.",
+   "rol": "finquero cafetero",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "It rains a lot. The coffee plants not need more water."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Vas muy bien con la idea. Revisa 'not need'. En inglés no basta con 'not': ¿qué palabra de ayuda falta antes del verbo?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "The coffee plants don't need more water."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Exacto! 'The coffee plants don't need more water.' Las matas están felices y tu frase también. ☕"
+    }
+   ],
+   "por_que_es_bueno": "Usa un contexto cafetero real, aplica la regla don't + verbo base con un sujeto plural, y el tutor resalta solo el error de la ficha con la pista dada.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz se prepara para guiar a unos turistas hasta una cascada y quiere decirles que no tienen que pagar entrada.",
+   "rol": "guía de turismo rural",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Welcome! You not pay for the waterfall."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué buena bienvenida! Fíjate en 'You not pay'. En inglés no basta con 'not': ¿qué palabra de ayuda falta antes del verbo?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "You don't pay for the waterfall. ¿Y esta frase sale en el examen del SENA del viernes?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Muy bien! 'You don't pay for the waterfall.' Correcto. Sobre el examen: la verdad no sé qué preguntas va a tener. Mejor pregúntale al profe; él sí te puede decir."
+    }
+   ],
+   "por_que_es_bueno": "Corrige con la pista exacta y, cuando el aprendiz pregunta algo que el tutor no puede saber, este lo admite honestamente y propone preguntarle al profe.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "Dos aprendices del SENA hablan en el descanso sobre la tarea de inglés de la semana.",
+   "rol": "compañero del SENA",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Help me, please. I not understand the homework."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Claro que te ayudo! Pero primero mira 'I not understand'. En inglés no basta con 'not': ¿qué palabra de ayuda falta antes del verbo?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "I don't understand the homework."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Perfecto! 'I don't understand the homework.' Bueno, la tarea todavía no la entiendes, pero esta frase ya la dominaste. 😄 Vamos con la tarea."
+    }
+   ],
+   "por_que_es_bueno": "Situación cotidiana entre compañeros; el tutor resalta el error, da una sola pista en español y celebra el acierto con humor sano.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz le cuenta a una turista en la plaza de mercado que la vecina de al lado hoy no vende aguacates.",
+   "rol": "vecina en la plaza de mercado",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "My neighbor not sell avocados today."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Se entiende la idea. Revisa 'not sell'. En inglés no basta con 'not': ¿qué palabra de ayuda falta antes del verbo?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "My neighbor doesn't sells avocados today."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Muy bien, ya está 'doesn't'! Ahora mira 'sells': la regla es doesn't + verbo base. ¿Cómo queda el verbo?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "My neighbor doesn't sell avocados today."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Excelente! 'My neighbor doesn't sell avocados today.' Hoy no hay aguacates, pero sí hay inglés del bueno. 🥑"
+    }
+   ],
+   "por_que_es_bueno": "Muestra el caso con doesn't y el verbo base, ambos dentro de la regla de la ficha; el tutor guía paso a paso sin dar la respuesta y confirma con calidez.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  }
+ ]
+}

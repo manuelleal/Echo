@@ -1,0 +1,10 @@
+{
+ "id": "do_negacion",
+ "regla_es": "Para negar en presente se usa don't/doesn't + verbo base.",
+ "ejemplo_mal": "We not have tools.",
+ "ejemplo_bien": "We don't have tools.",
+ "pista_es": "En inglés no basta con 'not': ¿qué palabra de ayuda falta antes del verbo?",
+ "nivel": "A1-A2",
+ "fuente": "borrador del coordinador a partir de los tipos de error del tutor (sin ver los bancos)",
+ "aprobada_por": "Christiam Puentes (chat, 4-nov-2026)"
+}

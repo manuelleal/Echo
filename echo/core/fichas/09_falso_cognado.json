@@ -1,0 +1,10 @@
+{
+ "id": "falso_cognado",
+ "regla_es": "Algunas palabras se parecen al español pero significan otra cosa (actually = en realidad; actualmente = currently).",
+ "ejemplo_mal": "Actually I live in Málaga, before I lived in Bogotá.",
+ "ejemplo_bien": "Currently I live in Málaga; before, I lived in Bogotá.",
+ "pista_es": "Esa palabra se parece al español, pero ¿significa lo mismo? Revisa: actually/actualmente.",
+ "nivel": "A1-A2",
+ "fuente": "borrador del coordinador a partir de los tipos de error del tutor (sin ver los bancos)",
+ "aprobada_por": "Christiam Puentes (chat, 4-nov-2026)"
+}

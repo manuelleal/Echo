@@ -1,0 +1,10 @@
+{
+ "id": "edad_have",
+ "regla_es": "En inglés la edad se dice con 'be' (am/is/are), no con 'have'.",
+ "ejemplo_mal": "I have 17 years.",
+ "ejemplo_bien": "I am 17 years old.",
+ "pista_es": "¿Qué verbo usas en inglés para la edad? Pista: es el mismo de 'I am happy'.",
+ "nivel": "A1-A2",
+ "fuente": "borrador del coordinador a partir de los tipos de error del tutor (sin ver los bancos)",
+ "aprobada_por": "Christiam Puentes (chat, 4-nov-2026)"
+}

@@ -1,0 +1,139 @@
+{
+ "ficha_id": "sujeto_omitido",
+ "origen": "claude-opus-5-5 effort=high",
+ "aprobado": "Christiam Puentes (chat, 4-nov-2026)",
+ "ejemplos": [
+  {
+   "situacion": "El aprendiz practica cómo atender en la tienda de la vereda. Una clienta pregunta por el precio del arroz, que subió esta semana.",
+   "rol": "tendero de la vereda",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Imagine I am a customer. How is the rice this week?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "The rice? Is expensive this week. Sorry."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Casi, casi. Mira esta parte: \"Is expensive\". Pista: ¿quién o qué 'es' caro? En inglés hay que decirlo. En inglés la oración necesita sujeto."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Ah ok. It is expensive this week. Sorry."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Perfecto! \"It is expensive this week.\" El arroz subió de precio, y tu inglés también va subiendo, ¡pero ese sí no le cobras a nadie!"
+    }
+   ],
+   "por_que_es_bueno": "El tutor no da la respuesta: señala exactamente \"Is expensive\", usa la pista de la ficha adaptada a la palabra (caro) y recuerda la regla del sujeto. Contexto real de tienda veredal y cierre con humor sano.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz trabaja en una finca cafetera y le cuenta a un comprador visitante cómo está el clima durante la cosecha.",
+   "rol": "finquero cafetero",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Good morning. Is raining a lot. The coffee is very good this year."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Buena noticia para el café! Pero revisa esto: \"Is raining\". Pista: ¿quién o qué 'is raining'? En inglés hay que decirlo, incluso para el clima: \"It is…\"."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "It is raining a lot. The coffee is very good this year."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Excelente! \"It is raining a lot.\" Ahora sí, el comprador entiende todo. Ojalá no llueva tanto que el café quiera aprender a nadar."
+    }
+   ],
+   "por_que_es_bueno": "Aplica justo la regla de la ficha sobre el clima con una palabra distinta al ejemplo (raining). El tutor resalta solo la parte del error, da una pista y el aprendiz se corrige solo. La conversación es corta y en un contexto cafetero real.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz practica como guía de turismo y presenta una cascada de la vereda a unos turistas extranjeros.",
+   "rol": "guía de turismo rural",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Welcome to the waterfall. Is very beautiful, no?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué buena bienvenida! Solo mira: \"Is very beautiful\". Pista: ¿quién o qué 'es' muy bonito? En inglés hay que decirlo."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "It is very beautiful! Y profe, ¿cuántos metros tiene la cascada de verdad? Para decirle a los turistas."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Muy bien, \"It is very beautiful\"! Sobre los metros: la verdad, no sé. No tengo ese dato de tu cascada. Pregúntale a tu profe o a la gente de la vereda, y luego practicamos: \"It is ___ meters high.\""
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Ok, I ask the teacher. Thank you!"
+    }
+   ],
+   "por_que_es_bueno": "El tutor corrige con una pista sin dar la frase y confirma el reintento. Cuando le preguntan algo que no puede saber (la altura de la cascada), lo dice con honestidad, propone preguntarle al profe y deja lista una frase que usa la misma regla (\"It is…\").",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "Dos compañeros del SENA se escriben antes de la clase de las 7 de la mañana. El aprendiz ve que ya es tarde.",
+   "rol": "compañero del SENA",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Hurry, hurry! Is late. The class is at seven."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Corre, sí! Pero antes mira esto: \"Is late\". Pista: ¿quién o qué 'es' tarde? En inglés hay que decirlo. En inglés la oración necesita sujeto."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "It is late! The class is at seven. Y esto va a salir en el examen?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Bien hecho! \"It is late.\" Lo del examen no lo sé, yo no conozco las preguntas. Pregúntale a tu profe. Mientras tanto, no llegues tarde: ¡el sujeto ya llegó a tu oración, ahora te toca llegar a ti!"
+    }
+   ],
+   "por_que_es_bueno": "Usa la regla de la ficha en una situación sin clima (\"It is late\") y con palabras diferentes al ejemplo. El tutor admite con honestidad que no sabe qué va a salir en el examen y manda al aprendiz donde el profe. Además, cierra con humor sano.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz se encuentra con una vecina en la plaza de mercado del pueblo un domingo y habla del clima mientras compra plátano.",
+   "rol": "vecina en la plaza de mercado",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "I am your neighbor at the market. Hello! How is the weather today?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Hello neighbor! Is very cloudy today. I have my umbrella."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué bien que llevas sombrilla! Revisa: \"Is very cloudy\". Pista: ¿quién o qué 'es' muy nublado? En inglés hay que decirlo, incluso para el clima: \"It is…\"."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "It is very cloudy today. I have my umbrella."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Perfecto, vecina contenta! \"It is very cloudy today.\" Tú con sombrilla y el plátano bien protegido. ¡Así se habla en la plaza!"
+    }
+   ],
+   "por_que_es_bueno": "El error es de esta ficha (falta el sujeto con el clima) y la palabra cambia (cloudy). El tutor resalta solo el fragmento con el error, da la pista en español y deja que el aprendiz se corrija. Confirma con calidez en un contexto cotidiano de plaza de mercado.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  }
+ ]
+}

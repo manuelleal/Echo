@@ -1,0 +1,10 @@
+{
+ "id": "articulo_a_an",
+ "regla_es": "'an' antes de sonido de vocal, 'a' antes de sonido de consonante.",
+ "ejemplo_mal": "I have a old tractor.",
+ "ejemplo_bien": "I have an old tractor.",
+ "pista_es": "Lee en voz alta la palabra que sigue: ¿empieza con sonido de vocal?",
+ "nivel": "A1-A2",
+ "fuente": "borrador del coordinador a partir de los tipos de error del tutor (sin ver los bancos)",
+ "aprobada_por": "Christiam Puentes (chat, 4-nov-2026)"
+}

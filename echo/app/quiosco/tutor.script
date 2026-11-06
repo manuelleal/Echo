@@ -1,0 +1,19 @@
+// Pantalla de arranque (Plymouth) del Chromebook-tutor.
+Window.SetBackgroundTopColor(0.16, 0.38, 0.22);
+Window.SetBackgroundBottomColor(0.09, 0.24, 0.14);
+cx = Window.GetWidth() / 2;
+cy = Window.GetHeight() / 2;
+t1 = Image.Text("Tutor de inglés", 1, 1, 1, 1, "Sans Bold 40");
+t2 = Image.Text("Hecho para reducir la brecha educativa", 0.98, 0.88, 0.55, 1, "Sans 22");
+t3 = Image.Text("Sin internet  ·  Málaga, Santander  ·  Christiam Puentes, SENA", 0.85, 0.92, 0.86, 1, "Sans 15");
+s1 = Sprite(t1); s1.SetX(cx - t1.GetWidth() / 2); s1.SetY(cy - 80);
+s2 = Sprite(t2); s2.SetX(cx - t2.GetWidth() / 2); s2.SetY(cy - 10);
+s3 = Sprite(t3); s3.SetX(cx - t3.GetWidth() / 2); s3.SetY(cy + 40);
+progreso = 0;
+barra = Sprite();
+fun refresco() {
+  progreso = (progreso + 1) % 120;
+  ancho = 240;
+  img = Image.Text(".", 1, 1, 1, 1, "Sans 10");
+}
+Plymouth.SetRefreshFunction(refresco);

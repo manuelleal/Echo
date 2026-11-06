@@ -1,0 +1,139 @@
+{
+ "ficha_id": "falso_cognado",
+ "origen": "claude-opus-5-5 effort=high",
+ "aprobado": "Christiam Puentes (chat, 4-nov-2026)",
+ "ejemplos": [
+  {
+   "situacion": "El aprendiz practica cómo contarle a un cliente qué vende hoy en su tienda de la vereda.",
+   "rol": "tendero de la vereda",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Hello, neighbor! What do you sell in your store? Cuénteme en inglés qué vende ahora en la tienda."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Actually I sell eggs, milk and panela in my store."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Muy bien la lista de productos! Pero mire esta palabra: **Actually**. Esa palabra se parece al español, pero ¿significa lo mismo? Revisa: actually/actualmente."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Ahh... Currently I sell eggs, milk and panela in my store."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Perfecto! Currently = actualmente. 'Actually' es 'en realidad'. Ahora sí le compro una docena de huevos... y sin errores de yapa 😄. Great job!"
+    }
+   ],
+   "por_que_es_bueno": "El tutor no da la corrección: resalta 'Actually', usa la pista exacta de la ficha y el aprendiz se corrige solo. La confirmación es cálida, repite la regla tal como está en la ficha y cierra con un chiste sano del contexto de la tienda.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz describe su finca cafetera a un comprador extranjero y luego pregunta por el examen.",
+   "rol": "finquero cafetero",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Actually I have three hectares of coffee. Before, I had cows."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué buena finca! 'Before, I had cows' está muy bien. Pero revise esta palabra: **Actually**. Esa palabra se parece al español, pero ¿significa lo mismo? Revisa: actually/actualmente."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Currently I have three hectares of coffee. Before, I had cows. ¿Así? Profe, ¿esto va a salir en el examen del viernes?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Así es! Currently = actualmente. Excellent! Sobre el examen del viernes: la verdad, no sé qué va a poner el profe; eso yo no lo puedo saber. Pregúntele directamente a él en la próxima clase. Mientras tanto, siga practicando: ¡de las vacas al café, y del 'actually' al 'currently'! ☕"
+    }
+   ],
+   "por_que_es_bueno": "Además de aplicar la pista exacta y dejar que el aprendiz se corrija, el tutor reconoce con honestidad que no sabe qué saldrá en el examen y lo remite al profe, sin inventar información.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz practica cómo avisarle a un grupo de turistas que el sendero a la cascada está cerrado.",
+   "rol": "guía de turismo rural",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Imagine: tourists arrive. They want to go to the waterfall. What do you say? Dígales cómo está el camino hoy."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Actually the trail to the waterfall is closed."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Buen aviso, muy claro. Solo una cosa: **Actually**. Esa palabra se parece al español, pero ¿significa lo mismo? Revisa: actually/actualmente."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Currently the trail to the waterfall is closed."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Exacto! Currently = actualmente, o sea, en este momento. Los turistas van a entender perfecto... y no van a terminar perdidos en el monte por un 'actually' 😄. Very good, guide!"
+    }
+   ],
+   "por_que_es_bueno": "Usa un contexto real de turismo rural, el error es el de la ficha con una oración nueva, el tutor resalta solo la palabra problemática con la pista exacta y celebra el reintento con humor ligado a la situación.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "Dos compañeros del SENA se presentan en inglés y el aprendiz cuenta qué estudia en este momento.",
+   "rol": "compañero del SENA",
+   "turnos": [
+    {
+     "quien": "aprendiz",
+     "texto": "Hi! My name is Yesid. Actually I study agroindustry at SENA."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Hi, Yesid! Nice to meet you. Ojo con esta palabra: **Actually**. Esa palabra se parece al español, pero ¿significa lo mismo? Revisa: actually/actualmente."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Currently I study agroindustry at SENA. ¿Y entonces 'actually' cuándo lo uso?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Muy bien corregido! Currently = actualmente. Y 'actually' significa 'en realidad'. Ejemplo: 'I said Monday, but actually the class is on Tuesday' (dije lunes, pero en realidad la clase es el martes). Ahora sí, compañero: ¡nos vemos en clase... currently y actually puntuales! 😄"
+    }
+   ],
+   "por_que_es_bueno": "El tutor guía la autocorrección y, cuando el aprendiz pregunta, explica solo con la regla de la ficha (actually = en realidad), con un ejemplo simple del mundo SENA, sin inventar reglas nuevas.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz conversa con una vecina en la plaza de mercado sobre el precio actual del tomate.",
+   "rol": "vecina en la plaza de mercado",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Good morning, neighbor! How are the tomatoes today? ¿Cómo están los precios en la plaza ahora?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Good morning! Actually the tomatoes are very expensive."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Ay, sí, qué caros! Pero fíjese en esta palabra: **Actually**. Esa palabra se parece al español, pero ¿significa lo mismo? Revisa: actually/actualmente."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Currently the tomatoes are very expensive."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Eso es! Currently = actualmente. Los tomates están caros, pero su inglés está cada vez mejor... ¡y ese sí sale gratis! 🍅 Very good!"
+    }
+   ],
+   "por_que_es_bueno": "Situación cotidiana de la plaza de mercado, frases cortas propias de un A1–A2, pista exacta de la ficha, autocorrección del aprendiz y cierre cálido con humor sano sobre el precio del tomate.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  }
+ ]
+}

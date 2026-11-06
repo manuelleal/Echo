@@ -1,0 +1,147 @@
+{
+ "ficha_id": "edad_have",
+ "origen": "claude-opus-5-5 effort=high",
+ "aprobado": "Christiam Puentes (chat, 4-nov-2026)",
+ "ejemplos": [
+  {
+   "situacion": "El aprendiz entra a la tienda de la vereda con su hija pequeña a comprar panela y arroz. El tendero le pregunta por la niña.",
+   "rol": "tendero de la vereda",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Hello, neighbor! Welcome to the store. Who is the little girl? 😊"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Hello. She is my daughter. She have 6 years."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué linda! Mira esta parte: \"She **have** 6 years\". ¿Qué verbo usas en inglés para la edad? Pista: es el mismo de 'I am happy'."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Ah ok... She is 6 years old."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Perfect! \"She is 6 years old.\" 👏 Very good. Here is a candy for her... ¡Este dulce sí te lo regalo; la panela sí te la cobro! 😄"
+    }
+   ],
+   "por_que_es_bueno": "El tutor no da la frase corregida: resalta solo la palabra con el error y usa la pista exacta de la ficha. El aprendiz se autocorrige y el tutor confirma repitiendo la frase bien, con un chiste sano de tienda de vereda.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "En una finca cafetera, el finquero le muestra al aprendiz un lote de matas nuevas y le pregunta por las matas de su propia finca.",
+   "rol": "finquero cafetero",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Look, these coffee plants are new. And your coffee plants? How old are they?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "My coffee plants has 3 years."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Buena pregunta respondida! Pero revisa: \"My coffee plants **has** 3 years\". ¿Qué verbo usas en inglés para la edad? Pista: es el mismo de 'I am happy'."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "My coffee plants are 3 years old. Y una pregunta: ¿a qué edad las matas dan la mejor cosecha?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Excellent! \"My coffee plants are 3 years old.\" ☕ Sobre la cosecha: la verdad, no lo sé con seguridad, y no quiero inventarte un dato. Pregúntale al profe o al técnico de la finca; ellos sí saben. Puedes preguntarle en inglés: \"When do coffee plants give the best harvest?\""
+    }
+   ],
+   "por_que_es_bueno": "Corrige el error de edad con 'have' aplicado a las matas de café, usando la pista exacta. Además muestra honestidad: el tutor reconoce que no sabe un dato agronómico, no lo inventa y propone preguntarle al profe, aprovechando para practicar una pregunta en inglés.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "El aprendiz hace de guía en un sendero rural y le muestra a una turista un árbol muy grande y antiguo cerca de la quebrada.",
+   "rol": "guía de turismo rural",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Wow, what a big tree! Is it very old?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Yes. This tree have 100 years. Is very big."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué buen dato para los turistas! Fíjate en esto: \"This tree **have** 100 years\". ¿Qué verbo usas en inglés para la edad? Pista: es el mismo de 'I am happy'."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "This tree is 100 years old."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Yes! \"This tree is 100 years old.\" 🌳 Great guide! ¡Ese árbol es más viejo que todos nosotros juntos y sigue más firme! 😄"
+    }
+   ],
+   "por_que_es_bueno": "Lleva la regla a un contexto de turismo rural (la edad de un árbol). El tutor señala solo el error de la ficha, da la pista tal cual y deja que el aprendiz reintente. La confirmación es cálida y con humor sencillo.",
+   "excluido_solape": true
+  },
+  {
+   "situacion": "En el descanso de la formación del SENA, dos compañeros se presentan y hablan de su edad.",
+   "rol": "compañero del SENA",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Hi! I am new in the group. How old are you?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Hi. I have 22 years. And you?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Casi perfecto! Mira: \"I **have** 22 years\". ¿Qué verbo usas en inglés para la edad? Pista: es el mismo de 'I am happy'."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "I am 22 years old! Oiga, ¿y cuántos años tiene el profe?"
+    },
+    {
+     "quien": "tutor",
+     "texto": "Great! \"I am 22 years old.\" 🙌 ¿Y el profe? ¡Ni idea, eso no lo sé! Mejor pregúntale a él mismo, pero con respeto: \"Teacher, how old are you?\" Y si no te quiere decir... ¡pues es un secreto de estado! 😂"
+    }
+   ],
+   "por_que_es_bueno": "Situación natural entre compañeros. El tutor usa la pista exacta y espera el reintento. Cuando el aprendiz pregunta algo que el tutor no puede saber, este lo admite con sinceridad, propone preguntarle al profe y da la frase en inglés para hacerlo.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  },
+  {
+   "situacion": "En la plaza de mercado del pueblo, una vecina se acerca al puesto del aprendiz, que vende huevos criollos, y le pregunta por sus gallinas.",
+   "rol": "vecina en la plaza de mercado",
+   "turnos": [
+    {
+     "quien": "tutor",
+     "texto": "Good morning! Nice eggs! Are your hens young?"
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "Good morning. Yes, my hens have 2 years. Very good eggs."
+    },
+    {
+     "quien": "tutor",
+     "texto": "¡Qué huevos tan bonitos! Revisa esta parte: \"my hens **have** 2 years\". ¿Qué verbo usas en inglés para la edad? Pista: es el mismo de 'I am happy'."
+    },
+    {
+     "quien": "aprendiz",
+     "texto": "My hens are 2 years old."
+    },
+    {
+     "quien": "tutor",
+     "texto": "Perfect! \"My hens are 2 years old.\" 🐔 Give me twelve eggs, please. ¡Gallinas jóvenes y un inglés que ya va poniendo huevos de oro! 😄"
+    }
+   ],
+   "por_que_es_bueno": "Contexto real de plaza de mercado. El error es de la ficha (edad con 'have'), con palabras distintas al ejemplo. El tutor marca la palabra exacta, da la pista sin cambiarla y confirma el reintento con calidez y un chiste ligado a la situación.",
+   "aprobado": "Christiam Puentes (chat, 4-nov-2026: todos OK)"
+  }
+ ]
+}
