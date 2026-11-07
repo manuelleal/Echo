@@ -19,3 +19,17 @@ Antes de congelar se hizo una prueba con estudiantes simulados (ver `PRUEBA_ESTU
 5. El corrector no inventa sujetos.
 
 Durante el piloto no se cambia el tutor. Cualquier cambio forzoso (por ejemplo, una caída) se declara como desviación en el reporte del 19-nov.
+
+## Cambio antes de empezar: `piloto-v1.1` (7-nov-2026, commit `5818fa4`)
+
+Al revisar el uso en el salón apareció una falla que afectaba la medición: en modo máquina la página no se reabre, así que todos los aprendices habrían quedado con el **mismo código** y no se habría podido contar n. Se corrigió antes de la primera sesión:
+
+- Botón **👤 Nuevo aprendiz**: código nuevo y pantalla limpia para cada aprendiz.
+- Botón **🔑 Ya tengo código**: en la sesión 2, cada uno sigue con su código.
+- Desde el corrector se puede volver a practicar.
+- En pantalla ya no está el enlace al registro.
+- La vista previa escribe en otro archivo y no toca el registro del piloto.
+
+`PROTOCOLO_sesiones.md` se reescribió para el modo máquina (arranque automático, sin terminal, sólo el Chromebook, hoja de códigos sin nombres).
+
+**No cambian** el preregistro, las métricas, los umbrales, el modelo, las situaciones ni la forma de corregir. Si algo cambia durante el piloto, se declara como desviación el 19-nov.

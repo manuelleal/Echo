@@ -2,27 +2,37 @@
 
 Dos sesiones de 30 a 40 minutos por grupo, entre el 9 y el 18 de noviembre de 2026. Sólo participan quienes tengan el consentimiento firmado (y el acudiente, si es menor).
 
+## Cómo funciona el equipo (versión `piloto-v1.1`, 7-nov)
+
+El Chromebook es una **máquina dedicada**: al prenderlo aparece Echo solo, sin escritorio, sin programas y **sin internet ni wifi**. Todo (modelo, voz, corrector) corre dentro del equipo. En el piloto se usa **sólo el Chromebook**; no se usan celulares.
+
+Arriba a la derecha hay cuatro botones:
+- **👤 Nuevo aprendiz:** da un código nuevo (tipo `S-3F2A`) y limpia la pantalla. Se toca **cada vez que se sienta otro aprendiz**.
+- **🔑 Ya tengo código:** en la sesión 2, el aprendiz escribe el código que anotó en la sesión 1 y sigue con ese.
+- **Tema** y **Voz:** no se cambian durante el piloto (tema Clásico, voz sí).
+
+El enlace **corrector** abre el modo corrector; desde ahí, **← Volver a practicar** regresa. El código se mantiene en los dos modos.
+
 ## Límite importante: un aprendiz a la vez
 
-El tutor responde a un aprendiz por vez. Cada turno tarda unos 2–8 s en modo práctica y unos 6 s de mediana en modo corrector. La primera consulta tras arrancar tarda cerca de 1 minuto. Si todos escriben a la vez, se forma fila y los tiempos suben.
+El tutor atiende a un aprendiz por vez. Cada turno tarda unos 2–8 s.
 
-**Recomendación:** grupos de **3 a 4 aprendices por Chromebook**, rotando. Mientras uno conversa con el tutor, los demás miran la pantalla o su celular y preparan su siguiente frase en un papel. Cada aprendiz hace bloques de 5–8 minutos. Con grupos grandes, haga dos turnos de 30–40 min el mismo día o en días distintos.
+**Recomendación:** grupos de **3 a 4 aprendices por turno**, rotando en el Chromebook. Mientras uno conversa, los demás preparan su siguiente frase en un papel. Cada aprendiz hace bloques de 5–8 minutos. Con grupos grandes, haga dos turnos de 30–40 min el mismo día o en días distintos.
 
-## Preparación del instructor (15 min antes)
+## Preparación del instructor (10 min antes)
 
-1. Encienda el Chromebook, conéctelo al cargador y a la red local (router o punto de acceso; no necesita internet).
-2. Abra la terminal y ejecute: `bash ~/f2/biblioteca/demo/arranca_demo.sh`
-3. Espere a que aparezca **"listo"**. No lance nada más hasta verlo.
-4. Haga una consulta de prueba (la primera tarda ~1 min) para dejarlo caliente. Anote la hora.
-5. Conecte los celulares a la misma red y abra la dirección del tutor. Verifique que cargue en uno.
-6. Dé a cada aprendiz un **código de sesión** (el que muestra el tutor, tipo S-3F2A). Anótelo sólo junto a un número de lista que usted no guardará con el nombre. No escriba nombres en el tutor.
-7. Tenga a mano consentimientos firmados, encuesta impresa o abierta, papel y lápiz.
+1. Conecte el cargador y prenda el Chromebook. En 1–2 minutos aparece la pantalla de Echo. No hay nada que abrir ni ejecutar.
+2. Haga una prueba: toque una situación, escriba `Hello` y espere la respuesta. Anote la hora. Vuelva al inicio con **Cambiar de situación**.
+3. Suba el volumen del equipo (teclas de volumen de la fila superior).
+4. Prepare una **hoja de códigos**: número de lista (1, 2, 3…) y código. **Sin nombres.** Esa hoja la guarda usted y no se junta con los consentimientos.
+5. Cuando se siente el primer aprendiz, toque **👤 Nuevo aprendiz**, lea el código que aparece y anótelo junto a su número. Dele también el código en un papelito para la sesión 2.
+6. Tenga a mano consentimientos firmados, encuesta impresa, papel y lápiz.
 
 ## Sesión 1 (35 min): conocer el tutor
 
 | Min | Aprendiz | Instructor |
 |---|---|---|
-| 0–5 | Escucha qué es el tutor, que puede equivocarse y que no es nota. Recibe su código. | Explica, resuelve dudas, recuerda que puede retirarse. |
+| 0–5 | Escucha qué es el tutor, que puede equivocarse y que no es nota. Recibe su código (**👤 Nuevo aprendiz**). | Explica, resuelve dudas, recuerda que puede retirarse. Anota el código en la hoja. |
 | 5–9 | Modo **tienda**: pide dos cosas y pregunta el precio ("I want two bananas. How much is it?"). | Observa; no ayuda con el inglés. |
 | 9–14 | Sigue en **tienda**: pregunta si hay algo más barato, se despide. Mínimo 5 turnos. | Anota fallos y esperas largas. |
 | 14–20 | Modo **entrevista**: responde "Tell me about yourself" y por qué quiere el trabajo. Mínimo 5 turnos. | Anota si las pistas se entienden. |
@@ -34,7 +44,7 @@ El tutor responde a un aprendiz por vez. Cada turno tarda unos 2–8 s en modo p
 
 | Min | Aprendiz | Instructor |
 |---|---|---|
-| 0–3 | Recuerda su código. | Verifica el arranque; consulta de prueba. |
+| 0–3 | Toca **🔑 Ya tengo código** y escribe el código de la sesión 1. Si lo perdió, toca **👤 Nuevo aprendiz** (se anota como código nuevo). | Verifica el arranque; consulta de prueba. Revisa que el código coincida con su hoja. |
 | 3–12 | Modo **proyecto**: presenta su proyecto como en una feria (qué es, para qué sirve, qué tecnología usa). Mínimo 6 turnos. | Observa y anota. |
 | 12–20 | Elige la situación que quiera (tienda, entrevista o proyecto) y repite, intentando evitar el error que más le marcaron. | Anota qué elige. |
 | 20–26 | Modo **corrector**: 5 frases nuevas con lo que quería decir y no sabía. | Observa. |
@@ -47,7 +57,7 @@ El tutor responde a un aprendiz por vez. Cada turno tarda unos 2–8 s en modo p
 - Si los aprendices entienden las pistas en español.
 - Frases que el tutor corrigió mal o de forma rara (anótelas con hora; luego aparecerán en el CSV).
 - Si alguien se frustra, se aburre o deja de participar.
-- Cuántos usan el celular y cuántos el Chromebook.
+- Si algún aprendiz quedó con el código de otro (se olvidó tocar **Nuevo aprendiz**): anote la hora para separarlo después.
 
 Anote en papel, sin nombres. No intervenga en el inglés del aprendiz durante el uso.
 
@@ -55,11 +65,12 @@ Anote en papel, sin nombres. No intervenga en el inglés del aprendiz durante el
 
 | Problema | Qué hacer |
 |---|---|
-| El tutor tarda más de 1 min en un turno (salvo la primera consulta) | Espere 1 min más. Si no responde, reinicie el script de arranque y espere "listo". |
-| No aparece "listo" | Reinicie el Chromebook y repita el arranque. Si falla dos veces, plan B. |
-| Un celular no conecta | Verifique que esté en la misma red; si no, ese aprendiz usa el Chromebook por turnos. |
-| Mensaje de error del tutor | Anote la hora y la frase; el turno queda en el CSV como error. Reintente una vez. |
-| Se apaga o se cuelga | Guarde la hora, reinicie y continúe donde iba. No repita turnos para "compensar". |
+| Un turno tarda más de 1 min | Espere 1 min más. Si no responde, mantenga presionado el botón de encendido hasta que se apague, préndalo de nuevo y espere la pantalla de Echo (1–2 min). |
+| No aparece Echo al prender | Apague y prenda una vez más. Si falla dos veces, plan B. |
+| Se olvidó tocar **Nuevo aprendiz** | Tóquelo ahora y siga. Anote la hora en su hoja; no se repiten turnos. |
+| El aprendiz perdió su código | **👤 Nuevo aprendiz**; anote en la hoja que es el mismo número de lista con código nuevo. |
+| Mensaje de error del tutor | Anote la hora y la frase; el turno queda en el registro como error. Reintente una vez. |
+| Se apaga o se cuelga | Anote la hora, préndalo y continúe con **🔑 Ya tengo código**. No repita turnos para "compensar". |
 
 ## Plan B (si el Chromebook no funciona)
 
@@ -68,10 +79,12 @@ Anote en papel, sin nombres. No intervenga en el inglés del aprendiz durante el
 3. Reprograme la sesión dentro del 9–18 de noviembre si es posible. Si no, se reporta la sesión perdida.
 4. La encuesta se puede aplicar igual si ya usaron el tutor al menos una vez.
 
-## Al final: descargar el CSV
+## Al final: el registro (CSV)
 
-1. Con el tutor aún encendido, en el Chromebook abra `/api/registro.csv` (ejemplo: `http://<dirección-del-tutor>/api/registro.csv`) y guarde el archivo, o descárguelo desde otro dispositivo en la red.
-2. Nómbrelo con fecha, por ejemplo `registro_2026-11-12.csv`. Haga una copia en una memoria USB.
-3. Revise que tenga las columnas: `sesion, turno, timestamp, tipo_entrada, ambito, texto_aprendiz, frase_corregida, n_errores, n_verificadas, errores, pregunta_tutor, segundos_primera_respuesta, segundos, estado, error_sistema`.
-4. Revise rápido que no haya nombres ni teléfonos escritos por los aprendices; si los hay, tápelos antes de guardar o compartir el archivo.
-5. Guarde los consentimientos firmados en un lugar separado del CSV.
+El registro se guarda solo dentro del Chromebook, sin nombres. **No hay que descargar nada en el salón.**
+
+1. Al terminar el día, apague el Chromebook normalmente.
+2. En casa, préndalo: se conecta solo al wifi de la casa y desde ahí se baja el registro por la red (`/api/registro.csv`) y se guarda con fecha, por ejemplo `registro_2026-11-12.csv`, con copia aparte.
+3. Se revisa que tenga las columnas: `sesion, turno, timestamp, tipo_entrada, ambito, texto_aprendiz, frase_corregida, n_errores, n_verificadas, errores, pregunta_tutor, segundos_primera_respuesta, segundos, estado, error_sistema`.
+4. Se revisa que no haya nombres ni teléfonos escritos por los aprendices; si los hay, se tapan antes de guardar o compartir.
+5. Los consentimientos firmados y la hoja de códigos se guardan en lugares separados del CSV.
