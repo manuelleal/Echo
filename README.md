@@ -4,7 +4,7 @@
 
 > *Hecho para reducir la brecha educativa.*
 
-Creado por Christiam Puentes, docente de inglés en un programa de formación técnica de una zona rural de Santander (Colombia).
+Creado por Christiam Puentes Leal, docente de inglés en un programa de formación técnica de una zona rural de Santander (Colombia).
 
 **Estado:** prototipo medido en laboratorio. Aún no lo han usado estudiantes reales (el piloto está preregistrado para el 9–18 de noviembre de 2026). Licencia: MIT (ver `LICENSE`).
 
@@ -140,7 +140,7 @@ Un bucle donde **Claude genera errores sintéticos filtrados por la gramática**
 
 ## Autor y contacto
 
-**Christiam Puentes**, docente de inglés, Santander, Colombia. Contacto: <https://engramaingles.com/>.
+**Christiam Puentes Leal**, docente de inglés, Santander, Colombia. Contacto: <https://engramaingles.com/>.
 
 **Cómo citar:**
 
@@ -156,7 +156,7 @@ Componentes de terceros con su licencia: ERG (MIT), ACE (MIT), llama.cpp (MIT), 
 
 ## English summary
 
-**Echo** is an English tutor that holds spoken-style conversations **fully offline** on old school computers, built for rural learners in Santander (Colombia), where there is no internet and no English teacher. Created by Christiam Puentes, English teacher in a technical-training program in a rural area of Santander, Colombia. *Made to reduce the educational gap.*
+**Echo** is an English tutor that holds spoken-style conversations **fully offline** on old school computers, built for rural learners in Santander (Colombia), where there is no internet and no English teacher. Created by Christiam Puentes Leal, English teacher in a technical-training program in a rural area of Santander, Colombia. *Made to reduce the educational gap.*
 
 The learner picks a real-life situation (village shop, job interview, farm, tech support, giving directions to a tourist, local market, fair, páramo, wool shop). An animated character with a natural pre-recorded voice (Kokoro-82M) talks with them, advances only when the answer fits the question, scaffolds help, and corrects sparingly (at most once every 3 turns, with a Spanish hint from the teacher). It celebrates progress, counts words spoken and logs anonymous usage to CSV.
 
@@ -182,4 +182,4 @@ The learner picks a real-life situation (village shop, job interview, farm, tech
 
 **License:** MIT (see `LICENSE`). Third-party: ERG (MIT), ACE (MIT), llama.cpp (MIT), Qwen2.5 (Apache-2.0), Kokoro-82M (Apache-2.0), cage (MIT).
 
-**Contact:** Christiam Puentes, <https://engramaingles.com/>.
+**Contact:** Christiam Puentes Leal, <https://engramaingles.com/>.
