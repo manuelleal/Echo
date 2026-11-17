@@ -4,7 +4,7 @@
 
 > *Hecho para reducir la brecha educativa.*
 
-Creado por Christiam Puentes Leal, docente de inglés en un programa de formación técnica de una zona rural de Santander (Colombia).
+Creado por Christiam Puentes Leal, docente de inglés (Colombia).
 
 **Estado:** prototipo medido en laboratorio. Aún no lo han usado estudiantes reales (el piloto está preregistrado para el 9–18 de noviembre de 2026). Licencia: MIT (ver `LICENSE`).
 
@@ -96,7 +96,7 @@ Todo con preregistro y bancos ciegos hechos por un agente aparte. Los resultados
 ## Estado honesto
 
 - **Aún no lo han usado estudiantes reales.**
-- El **piloto preregistrado** es del **9 al 18 de noviembre de 2026** con aprendices de un programa de formación técnica (`docs/pilot/`).
+- El **piloto preregistrado** es del **9 al 18 de noviembre de 2026**: dos sesiones por estudiante, en un Chromebook de 2014 que funciona sin internet (`docs/pilot/`).
 - **No se afirma que mejore el aprendizaje**: eso no se ha medido.
 - La **entrada por voz** está en camino.
 
@@ -136,15 +136,15 @@ Un bucle donde **Claude genera errores sintéticos filtrados por la gramática**
 - **Hardware mucho más débil** de lo habitual (un Celeron de 2014 sin AVX, 4 GB).
 - **Corrección verificable**: las reglas y la gramática explican el error y dónde está.
 - **Medición ciega** y preregistrada, con resultados negativos incluidos.
-- **Contexto local de una provincia rural de Santander** (pueblos, mercado y páramo; fuentes en `echo/app/GARCIA_ROVIRA_fuentes.md`).
+- **Contexto local rural** (pueblos, mercado y páramo; las fuentes están en `echo/app/`).
 
 ## Autor y contacto
 
-**Christiam Puentes Leal**, docente de inglés, Santander, Colombia. Contacto: <https://engramaingles.com/>.
+**Christiam Puentes Leal**, docente de inglés, Colombia. Contacto: <contacto@engramaingles.com>.
 
 **Cómo citar:**
 
-> Puentes, C. (2026). *Echo: tutor de inglés offline para computadores escolares viejos*. Repositorio de software, Santander, Colombia.
+> Puentes, C. (2026). *Echo: tutor de inglés offline para computadores escolares viejos*. Repositorio de software, Colombia.
 
 ## Licencia
 
@@ -156,7 +156,7 @@ Componentes de terceros con su licencia: ERG (MIT), ACE (MIT), llama.cpp (MIT), 
 
 ## English summary
 
-**Echo** is an English tutor that holds spoken-style conversations **fully offline** on old school computers, built for rural learners in Santander (Colombia), where there is no internet and no English teacher. Created by Christiam Puentes Leal, English teacher in a technical-training program in a rural area of Santander, Colombia. *Made to reduce the educational gap.*
+**Echo** is an English tutor that holds spoken-style conversations **fully offline** on old school computers, built for rural learners in Colombia, where there is no internet and no English teacher. Created by Christiam Puentes Leal, English teacher. *Made to reduce the educational gap.*
 
 The learner picks a real-life situation (village shop, job interview, farm, tech support, giving directions to a tourist, local market, fair, páramo, wool shop). An animated character with a natural pre-recorded voice (Kokoro-82M) talks with them, advances only when the answer fits the question, scaffolds help, and corrects sparingly (at most once every 3 turns, with a Spanish hint from the teacher). It celebrates progress, counts words spoken and logs anonymous usage to CSV.
 
@@ -174,7 +174,7 @@ The learner picks a real-life situation (village shop, job interview, farm, tech
 | H06 optimization | x1.56-1.67 writing speed |
 | Continuous-improvement loop (6 Nov) | 6308 pairs; validation 616/955 detected (65 %), 39/1275 false (3 %); not yet measured on a blind bank |
 
-**Honest status:** no real students have used it yet. A preregistered pilot runs 9-18 Nov 2026 with learners of a technical-training program. We do **not** claim it improves learning (not measured). Voice input is in progress.
+**Honest status:** no real students have used it yet. A preregistered classroom pilot runs 9-18 Nov 2026: two sessions per learner, on a 2014 Chromebook that runs fully offline. We do **not** claim it improves learning (not measured). Voice input is in progress.
 
 **Install:** large files (GGUF model, ERG `.dat`, audio) are not in the repo; see "Instalación" above. Absolute paths from the original Chromebook (`/home/christiam/...`) remain in scripts and must be adjusted.
 
@@ -182,4 +182,4 @@ The learner picks a real-life situation (village shop, job interview, farm, tech
 
 **License:** MIT (see `LICENSE`). Third-party: ERG (MIT), ACE (MIT), llama.cpp (MIT), Qwen2.5 (Apache-2.0), Kokoro-82M (Apache-2.0), cage (MIT).
 
-**Contact:** Christiam Puentes Leal, <https://engramaingles.com/>.
+**Contact:** Christiam Puentes Leal, <contacto@engramaingles.com>.
